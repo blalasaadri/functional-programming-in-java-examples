@@ -1,0 +1,1423 @@
+{
+  "slots": [
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542007800000,
+      "break": {
+        "id": "st.20",
+        "nameEN": "Registration & Breakfast",
+        "nameFR": "Registration & Breakfast",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "monday",
+        "startTime": 1542007800000,
+        "endTime": 1542011400000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "08:30",
+      "toTimeMillis": 1542011400000,
+      "toTime": "09:30",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.20",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542011400000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Server Side Java",
+        "talkType": "Deep Dive",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>Java EE was not advancing fast enough. Enterprise Java was being left in the dust in the microservices development environment. Customers were wondering when Java EE 8 was going to complete and what it was going to contain. And, what comes after Java EE?  The answer is the Eclipse MicroProfile and Eclipse Jakarta EE projects.</p>\n<p>In this session we will discuss and demonstrate the MicroProfile programming model for developing microservice applications.  Although MicroProfile is currently based on Java EE technologies, the expectation is that this will evolve to using the corresponding Jakarta EE technologies.  Thus, the synergy between these two Eclipse projects is already starting.</p>\n<p>We will also discuss the current state of the Jakarta EE effort.  Demonstrating the building and testing of various Jakarta EE (EE4J) projects is also on the agenda (the exact content to be determined based on the state of the transition efforts).</p>\n",
+        "id": "PGM-5344",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/5fb1a718e0b8ca1b6b5f45a042ba32eaef27a0a3",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Ivar Grimstad",
+              "uuid": "5fb1a718e0b8ca1b6b5f45a042ba32eaef27a0a3"
+            },
+            "name": "Ivar Grimstad"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/9efc4d746d8e6c4a58cdb8540be6229836705591",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Kevin Sutter",
+              "uuid": "9efc4d746d8e6c4a58cdb8540be6229836705591"
+            },
+            "name": "Kevin Sutter"
+          }
+        ],
+        "title": "Implementing Microservices with Jakarta EE and MicroProfile",
+        "lang": "en",
+        "summary": "Java EE was not advancing fast enough. Enterprise Java was being left in the dust in the microservices development environment. Customers were wondering when Java EE 8 was going to complete and what it was going to contain. And, what comes after Java EE?  The answer is the Eclipse MicroProfile and Eclipse Jakarta EE projects.\r\n\r\nIn this session we will discuss and demonstrate the MicroProfile programming model for developing microservice applications.  Although MicroProfile is currently based on Java EE technologies, the expectation is that this will evolve to using the corresponding Jakarta EE technologies.  Thus, the synergy between these two Eclipse projects is already starting.\r\n\r\nWe will also discuss the current state of the Jakarta EE effort.  Demonstrating the building and testing of various Jakarta EE (EE4J) projects is also on the agenda (the exact content to be determined based on the state of the transition efforts)."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542022200000,
+      "toTime": "12:30",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "uni_Room4_monday_12_9h30_12h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542011400000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Deep Dive",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>Everybody seems to be rocking with Kubernetes! Even your favorite repos at GitHub are running on top of it. Don't be the last developer/architect to board this bullet train. Come and learn a LOT in this session about Kubernetes - from getting started to staying productive.</p>\n<p>We will provide numerous practical tips &amp; techniques that will take you from cloud newbie to cloud native.</p>\n<ul>\n<li>Installation &amp; Getting Started</li>\n<li>Building &amp; Running Linux container Images</li>\n<li>Your JVM goes boom - OOMKilled in Kubernetes</li>\n<li>Peering inside your container</li>\n<li>Streaming logs</li>\n<li>IDEs and Debugging</li>\n<li>Load-balancing and service discovery</li>\n<li>Configuration management</li>\n<li>Blue/green and Canary deployments</li>\n<li>Istio Service Mesh for advanced microservices architecture</li>\n</ul>\n",
+        "id": "HTS-1046",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/70a37b119941970358f02ee9a30a18587550ff38",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Burr Sutter",
+              "uuid": "70a37b119941970358f02ee9a30a18587550ff38"
+            },
+            "name": "Burr Sutter"
+          }
+        ],
+        "title": "9 Steps to Awesome with Kubernetes",
+        "lang": "en",
+        "summary": "Everybody seems to be rocking with Kubernetes! Even your favorite repos at GitHub are running on top of it. Don't be the last developer/architect to board this bullet train. Come and learn a LOT in this session about Kubernetes - from getting started to staying productive.\r\n\r\nWe will provide numerous practical tips & techniques that will take you from cloud newbie to cloud native.\r\n\r\n- Installation & Getting Started\r\n- Building & Running Linux container Images \r\n- Your JVM goes boom - OOMKilled in Kubernetes\r\n- Peering inside your container\r\n- Streaming logs\r\n- IDEs and Debugging\r\n- Load-balancing and service discovery \r\n- Configuration management\r\n- Blue/green and Canary deployments\r\n- Istio Service Mesh for advanced microservices architecture\r\n"
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542022200000,
+      "toTime": "12:30",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "uni_Room5_monday_12_9h30_12h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542011400000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "Deep Dive",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>GraalVM is a high-performance embeddable polyglot virtual machine capable of running different languages well:  Java, Scala, Kotlin, JavaScript, Ruby, Python and everything with an LLVM backend like C and C++.</p>\n<p>This session explores GraalVM and its uses for typical Java applications: getting the best peak performance on various workloads, creating native images for instant startup,\nmixing JavaScript and Python, or Ruby, or R into your code. You'll learn how to understand what the JIT compiler is doing with your code, how to collect the necessary debug information for further profiling, what are the limitations of GraalVM's native images and how to overcome most frequent of them.</p>\n<p>We'll look at the polyglot applications and how they impact the code you're writing, learn the polyglot API you need to use to effectively mix different programming languages in one program.\nWe'll explore using the common tooling like VisualVM and Chrome debugger for languages supported by GraalVM, even when you're running JavaScript as stored procedures in the database.</p>\n<p>The session is based on a series of demos you can follow along and try yourself later, and the insight you can directly use.</p>\n",
+        "id": "CMV-7114",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/e43a02ca20691173da1dc75a12a7a030f72c13c0",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Oleg Šelajev",
+              "uuid": "e43a02ca20691173da1dc75a12a7a030f72c13c0"
+            },
+            "name": "Oleg Šelajev"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/9d24c928e91ac666d17dca940a22448bc4b49eab",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Thomas Wuerthinger",
+              "uuid": "9d24c928e91ac666d17dca940a22448bc4b49eab"
+            },
+            "name": "Thomas Wuerthinger"
+          }
+        ],
+        "title": "Deep dive into using GraalVM for Java and JavaScript developers",
+        "lang": "en",
+        "summary": "GraalVM is a high-performance embeddable polyglot virtual machine capable of running different languages well:  Java, Scala, Kotlin, JavaScript, Ruby, Python and everything with an LLVM backend like C and C++. \r\n\r\nThis session explores GraalVM and its uses for typical Java applications: getting the best peak performance on various workloads, creating native images for instant startup, \r\nmixing JavaScript and Python, or Ruby, or R into your code. You'll learn how to understand what the JIT compiler is doing with your code, how to collect the necessary debug information for further profiling, what are the limitations of GraalVM's native images and how to overcome most frequent of them. \r\n\r\nWe'll look at the polyglot applications and how they impact the code you're writing, learn the polyglot API you need to use to effectively mix different programming languages in one program. \r\nWe'll explore using the common tooling like VisualVM and Chrome debugger for languages supported by GraalVM, even when you're running JavaScript as stored procedures in the database.\r\n\r\nThe session is based on a series of demos you can follow along and try yourself later, and the insight you can directly use."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542022200000,
+      "toTime": "12:30",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "uni_Room6_monday_12_9h30_12h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542011400000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Deep Dive",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>What is the state of lambda expressions in Java 11? Lambda expressions are the major feature of Java 8, having an impact on most of the API, including the Streams and Collections API. We are now living the Java 11 days; new features have been added and new patterns have emerged. This highly technical Deep Dive session will visit all these patterns, the well-known ones and the new ones, in an interactive hybrid of lecture and laboratory. We present a technique and show how it helps solve a problem. We then present another problem, and give you some time to solve it yourself. Finally, we present a solution, and open for questions, comments, and discussion. Bring your laptop set up with JDK 11 and your favorite IDE, and be prepared to think!</p>\n<p>This session is part 1 of 2 parts. In part 1 we will cover lambdas, functional interfaces, default methods, higher-order functions, and comparators.</p>\n",
+        "id": "CFL-7665",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/e14ef4212ffd330e97f9a0ff3420fc27714d4b0d",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "José Paumard",
+              "uuid": "e14ef4212ffd330e97f9a0ff3420fc27714d4b0d"
+            },
+            "name": "José Paumard"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/a733dc53923e5acd86780590978c563ce1e2582e",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Stuart Marks",
+              "uuid": "a733dc53923e5acd86780590978c563ce1e2582e"
+            },
+            "name": "Stuart Marks"
+          }
+        ],
+        "title": "Lambdas and Streams Master Class Part 1",
+        "lang": "en",
+        "summary": "What is the state of lambda expressions in Java 11? Lambda expressions are the major feature of Java 8, having an impact on most of the API, including the Streams and Collections API. We are now living the Java 11 days; new features have been added and new patterns have emerged. This highly technical Deep Dive session will visit all these patterns, the well-known ones and the new ones, in an interactive hybrid of lecture and laboratory. We present a technique and show how it helps solve a problem. We then present another problem, and give you some time to solve it yourself. Finally, we present a solution, and open for questions, comments, and discussion. Bring your laptop set up with JDK 11 and your favorite IDE, and be prepared to think!\r\n\r\nThis session is part 1 of 2 parts. In part 1 we will cover lambdas, functional interfaces, default methods, higher-order functions, and comparators."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542022200000,
+      "toTime": "12:30",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "uni_Room8_monday_12_9h30_12h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542011400000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Methodology & Culture",
+        "talkType": "Deep Dive",
+        "track": "Methodology & Culture",
+        "summaryAsHtml": "<p>You've heard about Gradle for a long time. Now you're curious, but don't know where to start. It is worth switching?</p>\n<p>The objective of this session is to give you a strong introduction to Gradle, demonstrating that it's both a modern and mature build tool.</p>\n<p>First and foremost: user interactions: any developer will have interaction with the build tool. We will show how to take advantage of the task based model of Gradle and how to get feedback from your builds as fast as possible.</p>\n<p>We will then demonstrate the major advantages of Gradle:</p>\n<ul>\n<li>Conventions and base plugins</li>\n<li>Incrementality (tasks, builds)</li>\n<li>Advanced configuration</li>\n<li>Dependency management</li>\n<li>IDE integration</li>\n</ul>\n<p>Last but not least, we will show how to setup a <em>distributed cache</em>, which allows to dramatically reduce build durations, both on CI and locally!</p>\n<p>After this session, you will have all the prerequisites to understand what Gradle can provide to you, how its model differs from other build tool, how to improve your build times, or simply improve the quality of your software by defining a build and release process with high quality standards.</p>\n",
+        "id": "UAH-5130",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/9041552b955554c4fe4907f127e164d9395af163",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Cédric Champeau",
+              "uuid": "9041552b955554c4fe4907f127e164d9395af163"
+            },
+            "name": "Cédric Champeau"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/82766acbc75e36c51b6151eac21e4ae0e7059f8c",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Louis Jacomet",
+              "uuid": "82766acbc75e36c51b6151eac21e4ae0e7059f8c"
+            },
+            "name": "Louis Jacomet"
+          }
+        ],
+        "title": "Switching to Gradle: maturity, performance, and pleasure!",
+        "lang": "en",
+        "summary": "You've heard about Gradle for a long time. Now you're curious, but don't know where to start. It is worth switching?\r\n\r\nThe objective of this session is to give you a strong introduction to Gradle, demonstrating that it's both a modern and mature build tool. \r\n\r\nFirst and foremost: user interactions: any developer will have interaction with the build tool. We will show how to take advantage of the task based model of Gradle and how to get feedback from your builds as fast as possible.\r\n\r\nWe will then demonstrate the major advantages of Gradle:\r\n\r\n* Conventions and base plugins\r\n* Incrementality (tasks, builds)\r\n* Advanced configuration\r\n* Dependency management\r\n* IDE integration\r\n\r\nLast but not least, we will show how to setup a *distributed cache*, which allows to dramatically reduce build durations, both on CI and locally!\r\n\r\nAfter this session, you will have all the prerequisites to understand what Gradle can provide to you, how its model differs from other build tool, how to improve your build times, or simply improve the quality of your software by defining a build and release process with high quality standards."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542022200000,
+      "toTime": "12:30",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "uni_Room9_monday_12_9h30_12h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "BOF1",
+      "notAllocated": false,
+      "fromTimeMillis": 1542011400000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Big Data & Machine Learning",
+        "talkType": "Hands-on Lab",
+        "track": "Big Data & Machine Learning",
+        "summaryAsHtml": "<p>TensorFlow is an awesome library. But for the average developer fiddling with linear algebra is far to complicated. In this talk we'll give you a fast track recipe to master DeepLearning challenges using the Keras framework on top of TensorFlow. We'll start with basic image classification, show how you can implement a chat- bot and end with a Cryptocurrency price predictor. At the end of this talk you'll know how Convolutional Neural Networks, Long-Short-Term Memory Networks and Autoencoders work and how you can apply them using Keras and TensorFlow.</p>\n",
+        "id": "FCN-7579",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/bce4acb236bd432f576479f6e6d2494c0bdd6e65",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Romeo Kienzler",
+              "uuid": "bce4acb236bd432f576479f6e6d2494c0bdd6e65"
+            },
+            "name": "Romeo Kienzler"
+          }
+        ],
+        "title": "DeepLearning for Developers - Introduction to DeepLearning with Keras and TensorFlow",
+        "lang": "en",
+        "summary": "TensorFlow is an awesome library. But for the average developer fiddling with linear algebra is far to complicated. In this talk we'll give you a fast track recipe to master DeepLearning challenges using the Keras framework on top of TensorFlow. We'll start with basic image classification, show how you can implement a chat- bot and end with a Cryptocurrency price predictor. At the end of this talk you'll know how Convolutional Neural Networks, Long-Short-Term Memory Networks and Autoencoders work and how you can apply them using Keras and TensorFlow."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542022200000,
+      "toTime": "12:30",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "lab_BOF1_monday_12_9h30_12h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "BOF2",
+      "notAllocated": false,
+      "fromTimeMillis": 1542011400000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Modern Web & UX",
+        "talkType": "Hands-on Lab",
+        "track": "Modern Web & UX",
+        "summaryAsHtml": "<p>We all want to consistently ship quality software. One of the best ways to do that is by end-to-end (E2E) testing our code as it simulates the real actions of our beloved users. Let’s be frank though, E2E testing is notoriously time-consuming, expensive, slow, and often flaky. Unfortunately, these issues lead to developers doing very little to no E2E testing, and taking solace in a plethora of unit-tests that cannot fully test the intended experience of users.</p>\n<p>We can do better.</p>\n<p>In this hands-on session, we’ll dive deep into using Cypress, an open-source tool that enables us to easily and beautifully write flake-free, reliable, deterministic E2E tests for our web applications. Like a good friend, E2E tests should be there to give us confidence in the software we ship down the wire.</p>\n<h2>Session Outline</h2>\n<ol>\n<li>Introduction &amp; Overview</li>\n<li>Cypress basics</li>\n<li>Adding tests and configurations</li>\n<li>Cypress Selector Playground</li>\n<li>Reseting/cleanup between tests</li>\n<li>Spying and stubbing XHR tequests</li>\n<li>Accessing application code and data</li>\n<li>Setting up E2E tests on CI</li>\n<li>Setting up Cypress Dashboard</li>\n</ol>\n<p>The session will be accompanied by exercises, demo app, and slides.</p>\n",
+        "id": "IDP-9797",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/a5a5bae3854780fe1e053247e59535f5f8ce9f28",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Amir Rustamzadeh",
+              "uuid": "a5a5bae3854780fe1e053247e59535f5f8ce9f28"
+            },
+            "name": "Amir Rustamzadeh"
+          }
+        ],
+        "title": "Next-Generation End-to-End Testing with Cypress.io",
+        "lang": "en",
+        "summary": "We all want to consistently ship quality software. One of the best ways to do that is by end-to-end (E2E) testing our code as it simulates the real actions of our beloved users. Let’s be frank though, E2E testing is notoriously time-consuming, expensive, slow, and often flaky. Unfortunately, these issues lead to developers doing very little to no E2E testing, and taking solace in a plethora of unit-tests that cannot fully test the intended experience of users.\r\n\r\nWe can do better.\r\n\r\nIn this hands-on session, we’ll dive deep into using Cypress, an open-source tool that enables us to easily and beautifully write flake-free, reliable, deterministic E2E tests for our web applications. Like a good friend, E2E tests should be there to give us confidence in the software we ship down the wire.\r\n\r\nSession Outline\r\n---\r\n1. Introduction & Overview\r\n2. Cypress basics\r\n3. Adding tests and configurations\r\n4. Cypress Selector Playground\r\n5. Reseting/cleanup between tests\r\n6. Spying and stubbing XHR tequests\r\n7. Accessing application code and data\r\n8. Setting up E2E tests on CI\r\n9. Setting up Cypress Dashboard\r\n\r\nThe session will be accompanied by exercises, demo app, and slides."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542022200000,
+      "toTime": "12:30",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "lab_BOF2_monday_12_9h30_12h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542022200000,
+      "break": {
+        "id": "st.15",
+        "nameEN": "Lunch",
+        "nameFR": "Lunch",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "monday",
+        "startTime": 1542022200000,
+        "endTime": 1542025800000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "12:30",
+      "toTimeMillis": 1542025800000,
+      "toTime": "13:30",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.15",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542025800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "Deep Dive",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>Do you care about speed?\nDo your users care about latency?\nWhen performance matters, theory and intuition are initially useful guides, but soon the rubber meets the road. Write benchmarks, try several approaches, optimize at different levels of abstraction, find the bottleneck, repeat!\nThe Go tooling makes performance exploration approachable and exciting.\nUse Pprof to discover where the time is actually spent. It's often not where you think!\nConsider writing concurrent code, when the benefits exceed the costs.\nUse Trace to peek at your CPU cores: Why are they sometimes idle? Where do all these context switches come from? Is the GC responsible for my slowdown?\nWrite good tests, to preserve semantics across incremental refactorings.\nLearn about the benchmarking idioms of the testing package.\nRun the Race detector, understand what it does and why it matters.\nExamine test code coverage to discover dead code and hot paths.\nWhat the hell is a Flame Graph?\nFactor in the trade-offs of memory allocation, regexps, maps, random numbers, I/O, stdlib.\nAlso, consider when it is wise not to optimize!</p>\n",
+        "id": "FLJ-4831",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/d2fd0a69f8cbf47c3c05f33fc93ca59b4df47dc0",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Valentin Deleplace",
+              "uuid": "d2fd0a69f8cbf47c3c05f33fc93ca59b4df47dc0"
+            },
+            "name": "Valentin Deleplace"
+          }
+        ],
+        "title": "Measuring and improving performance in Go",
+        "lang": "en",
+        "summary": "Do you care about speed? \r\nDo your users care about latency?\r\nWhen performance matters, theory and intuition are initially useful guides, but soon the rubber meets the road. Write benchmarks, try several approaches, optimize at different levels of abstraction, find the bottleneck, repeat!\r\nThe Go tooling makes performance exploration approachable and exciting.\r\nUse Pprof to discover where the time is actually spent. It's often not where you think!\r\nConsider writing concurrent code, when the benefits exceed the costs.\r\nUse Trace to peek at your CPU cores: Why are they sometimes idle? Where do all these context switches come from? Is the GC responsible for my slowdown?\r\nWrite good tests, to preserve semantics across incremental refactorings.\r\nLearn about the benchmarking idioms of the testing package.\r\nRun the Race detector, understand what it does and why it matters.\r\nExamine test code coverage to discover dead code and hot paths.\r\nWhat the hell is a Flame Graph?\r\nFactor in the trade-offs of memory allocation, regexps, maps, random numbers, I/O, stdlib.\r\nAlso, consider when it is wise not to optimize!"
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542036600000,
+      "toTime": "16:30",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "uni_Room4_monday_12_13h30_16h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542025800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Deep Dive",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>From function source code to running in Kubernetes in 5 minutes. That's the power some of the latest open source projects can bring to your fingertips. This perceived simplicity actually hides layers of abstractions underneath. In this deep dive, we'll explore all the technology behind the scenes, from Kubernetes, Istio, Knative, to riff and Spring Cloud function.</p>\n<p>We'll explore how Istio and Knative extend Kubernetes via Custom Resource Definitions to provide support for higher level developer concerns such as microservices autoscaling, routing across revisions of an application, and a unified eventing bus to compose event-driven workloads. Building on top of this, we'll take a look at how riff has been replatformed to run on top of Knative, while preserving its scale-on-demand Function as a Service ease of use. Finally, to tie the platform from top to bottom, we'll dive into Spring Cloud Function to see how to use Function interface to create a function that can process both synchronous HTTP requests as well as event-based messages using riff and Knative.</p>\n",
+        "id": "ASZ-5494",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/326f957b5bf291676606231592f9b91701075d89",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Ray Tsang",
+              "uuid": "326f957b5bf291676606231592f9b91701075d89"
+            },
+            "name": "Ray Tsang"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/55e2fb75fa1fd0270646a491cded06957368bb9f",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Eric Bottard",
+              "uuid": "55e2fb75fa1fd0270646a491cded06957368bb9f"
+            },
+            "name": "Eric Bottard"
+          }
+        ],
+        "title": "Beyond Kubernetes - Managing Applications and Functions with Knative, riff, and Spring Cloud Functions",
+        "lang": "en",
+        "summary": "From function source code to running in Kubernetes in 5 minutes. That's the power some of the latest open source projects can bring to your fingertips. This perceived simplicity actually hides layers of abstractions underneath. In this deep dive, we'll explore all the technology behind the scenes, from Kubernetes, Istio, Knative, to riff and Spring Cloud function.\r\n\r\nWe'll explore how Istio and Knative extend Kubernetes via Custom Resource Definitions to provide support for higher level developer concerns such as microservices autoscaling, routing across revisions of an application, and a unified eventing bus to compose event-driven workloads. Building on top of this, we'll take a look at how riff has been replatformed to run on top of Knative, while preserving its scale-on-demand Function as a Service ease of use. Finally, to tie the platform from top to bottom, we'll dive into Spring Cloud Function to see how to use Function interface to create a function that can process both synchronous HTTP requests as well as event-based messages using riff and Knative."
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542036600000,
+      "toTime": "16:30",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "uni_Room5_monday_12_13h30_16h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542025800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Deep Dive",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don't have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will dive deep to explore precisely how it does what it does, following one brave little packet in from the internet and back out again. At each point we’ll see how to configure the features of that component to exploit istio’s full potential. This will give a great insight into Istio's full power, and its fascinating architecture.</p>\n<p>Over the course of the session, we will look at the following components and features, as our packet encounters them:</p>\n<ul>\n<li>cloud / kubernetes networking</li>\n<li>pod construction, namespaces, envoy interception</li>\n<li>Pilot</li>\n<li>Mixer</li>\n<li>canaries</li>\n<li>traffic splitting</li>\n<li>circuit breaking</li>\n<li>traffic mirroring</li>\n<li>mTLS</li>\n<li>istio ingress</li>\n<li>istio egress</li>\n<li>telemetry</li>\n</ul>\n",
+        "id": "OLG-3924",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/93f8df2d142810c56d5a93269792ebdcf44a6171",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Matt Turner",
+              "uuid": "93f8df2d142810c56d5a93269792ebdcf44a6171"
+            },
+            "name": "Matt Turner"
+          }
+        ],
+        "title": "Life of a packet through Istio",
+        "lang": "en",
+        "summary": "Istio is a service mesh for Kubernetes that offers advanced networking features. It provides intelligent routing, resiliency, and security features, so that service authors don't have to keep re-implementing them. Istio is rapidly taking off and there are great introductory talks everywhere. However in this session, we will dive deep to explore precisely how it does what it does, following one brave little packet in from the internet and back out again. At each point we’ll see how to configure the features of that component to exploit istio’s full potential. This will give a great insight into Istio's full power, and its fascinating architecture.\r\n\r\nOver the course of the session, we will look at the following components and features, as our packet encounters them: \r\n\r\n* cloud / kubernetes networking\r\n* pod construction, namespaces, envoy interception\r\n* Pilot\r\n* Mixer\r\n* canaries\r\n* traffic splitting\r\n* circuit breaking\r\n* traffic mirroring\r\n* mTLS\r\n* istio ingress\r\n* istio egress\r\n* telemetry"
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542036600000,
+      "toTime": "16:30",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "uni_Room6_monday_12_13h30_16h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542025800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Deep Dive",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>Java 8 introduced Streams and Java 9 now has Reactive API. Which one should we choose, when should we choose them, why, and how to use one vs. the other. This session will answer all those questions, by diving deep into the APIs using live code examples.</p>\n",
+        "id": "HJU-1325",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/af8a385bb3e6caef5337c94d51e0999994e120e5",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Venkat Subramaniam",
+              "uuid": "af8a385bb3e6caef5337c94d51e0999994e120e5"
+            },
+            "name": "Venkat Subramaniam"
+          }
+        ],
+        "title": "Java Streams vs. Reactive Streams: Which, When, How, and Why?",
+        "lang": "en",
+        "summary": "Java 8 introduced Streams and Java 9 now has Reactive API. Which one should we choose, when should we choose them, why, and how to use one vs. the other. This session will answer all those questions, by diving deep into the APIs using live code examples."
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542036600000,
+      "toTime": "16:30",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "uni_Room8_monday_12_13h30_16h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542025800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Architecture & Security",
+        "talkType": "Deep Dive",
+        "track": "Architecture & Security",
+        "summaryAsHtml": "<p>Today in our tutorial session using a case study technique we will have a brief description of Hyperledger Composer, its capabilities, and its role in the modeling and implementing a Blockchain application. Then a closer look at Hyperledger Fabric and a typical Blockchain solution Architecture. After that a description of the elements of a business network, role of channels, and how world state is maintained. Exploring An explanation of how consensus works, endorsement, and ordering work in Hyperledger Fabric operates. Then touch Hyperledger Composer and Hyperledger Fabric security. A description of the different possible deployment options of Blockchain solutions including local, on IBM Container Service, and IBM Blockchain Platform.</p>\n",
+        "id": "YFG-1152",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/9d2bcb8c3fc2f4dfabab45ffca2e74fdacd796ae",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Ahmad Gohar",
+              "uuid": "9d2bcb8c3fc2f4dfabab45ffca2e74fdacd796ae"
+            },
+            "name": "Ahmad Gohar"
+          }
+        ],
+        "title": "A journey to Build a Distributed Blockchain Application",
+        "lang": "en",
+        "summary": "Today in our tutorial session using a case study technique we will have a brief description of Hyperledger Composer, its capabilities, and its role in the modeling and implementing a Blockchain application. Then a closer look at Hyperledger Fabric and a typical Blockchain solution Architecture. After that a description of the elements of a business network, role of channels, and how world state is maintained. Exploring An explanation of how consensus works, endorsement, and ordering work in Hyperledger Fabric operates. Then touch Hyperledger Composer and Hyperledger Fabric security. A description of the different possible deployment options of Blockchain solutions including local, on IBM Container Service, and IBM Blockchain Platform."
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542036600000,
+      "toTime": "16:30",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "uni_Room9_monday_12_13h30_16h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "BOF1",
+      "notAllocated": false,
+      "fromTimeMillis": 1542025800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Hands-on Lab",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>Micronaut is a modern, JVM-based, full stack microservices framework designed for building modular, easily testable Micro Service applications in Java, Kotlin or Groovy. Micronaut is developed by the creators of Grails and takes inspiration from lessons learnt over the years building real-world applications from monoliths to microservices using Spring, Spring Boot and Grails.</p>\n<p>This workshop covers the current features of Micronaut for building microservices, such as:</p>\n<p>Dependency Injection and Inversion of Control (IoC).\nConfiguration system.\nHTTP services.\nCloud and serverless deployments.\nManagement &amp; Monitoring.</p>\n",
+        "id": "DTX-6550",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/1421cdc6da2d62b6476748ede71009cfaec49bcf",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Alvaro Sanchez-Mariscal",
+              "uuid": "1421cdc6da2d62b6476748ede71009cfaec49bcf"
+            },
+            "name": "Alvaro Sanchez-Mariscal"
+          }
+        ],
+        "title": "Learn Micronaut: a reactive microservices framework for the JVM",
+        "lang": "en",
+        "summary": "Micronaut is a modern, JVM-based, full stack microservices framework designed for building modular, easily testable Micro Service applications in Java, Kotlin or Groovy. Micronaut is developed by the creators of Grails and takes inspiration from lessons learnt over the years building real-world applications from monoliths to microservices using Spring, Spring Boot and Grails.\r\n\r\nThis workshop covers the current features of Micronaut for building microservices, such as:\r\n\r\nDependency Injection and Inversion of Control (IoC).\r\nConfiguration system.\r\nHTTP services.\r\nCloud and serverless deployments.\r\nManagement & Monitoring."
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542036600000,
+      "toTime": "16:30",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "lab_BOF1_monday_12_13h30_16h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "BOF2",
+      "notAllocated": false,
+      "fromTimeMillis": 1542025800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Mobile & IoT",
+        "talkType": "Hands-on Lab",
+        "track": "Mobile & IoT",
+        "summaryAsHtml": "<p>Android developers, we propose you to come experiment the MVP &amp; MVVM Android architectures! From a simple Android app, we will work on why and how to implement architectures principles. We will see how to go from MVP to MVVM with Android Architecture Components.</p>\n<p>At the agenda: Kotlin, RxJava, Unit Tests and Android Architecture Components &amp; Koin.</p>\n<p>Warm up your AndroidStudio!!!</p>\n<p>Requirements: AndroidStudio 3.1+ &amp; Kotlin plugin\nSome background knowledge on Kotlin and RxJava can be helpful</p>\n",
+        "id": "JCX-3863",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/94d38a2c38639dd4c38727e62d3b125094244544",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Laurent Baresse",
+              "uuid": "94d38a2c38639dd4c38727e62d3b125094244544"
+            },
+            "name": "Laurent Baresse"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/aad30e21bb11c3009996d5cf960b352240f2397c",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Arnaud Giuliani",
+              "uuid": "aad30e21bb11c3009996d5cf960b352240f2397c"
+            },
+            "name": "Arnaud Giuliani"
+          }
+        ],
+        "title": "Hands-on Android Architecture & Architecture Components",
+        "lang": "en",
+        "summary": "Android developers, we propose you to come experiment the MVP & MVVM Android architectures! From a simple Android app, we will work on why and how to implement architectures principles. We will see how to go from MVP to MVVM with Android Architecture Components.\r\n\r\nAt the agenda: Kotlin, RxJava, Unit Tests and Android Architecture Components & Koin.\r\n\r\nWarm up your AndroidStudio!!!\r\n\r\nRequirements: AndroidStudio 3.1+ & Kotlin plugin \r\nSome background knowledge on Kotlin and RxJava can be helpful"
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542036600000,
+      "toTime": "16:30",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "lab_BOF2_monday_12_13h30_16h30",
+      "day": "monday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542036600000,
+      "break": {
+        "id": "st.12",
+        "nameEN": "Coffee Break",
+        "nameFR": "Coffee Break",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "monday",
+        "startTime": 1542036600000,
+        "endTime": 1542037500000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "16:30",
+      "toTimeMillis": 1542037500000,
+      "toTime": "16:45",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.12",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542037500000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "Tools-in-Action",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>This talk summarizes our experiences from building language servers and using them across Eclipse, VS Code, and Atom. We talk about the good parts (e.g. lightweight tooling, starting fresh, write once, use everywhere, isolated testing, separate processes), the bad parts (e.g. isolation, do the work twice, size and resource consumption) and the really ugly parts (e.g. multiplied testing efforts, different clients). We also talk about the integration of our language servers with existing Java tooling to improve the Spring Boot developer experience while hacking Java code. The talk is based on experiences building language servers for Spring Boot and related projects and integrating/delivering them with Eclipse, VS Code and Atom.</p>\n",
+        "id": "TXX-4764",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/25b2183dd9f3941d5ff1276fef899fc0390853d9",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Martin Lippert",
+              "uuid": "25b2183dd9f3941d5ff1276fef899fc0390853d9"
+            },
+            "name": "Martin Lippert"
+          }
+        ],
+        "title": "Implementing Language Servers - the Good, the Bad, the Ugly",
+        "lang": "en",
+        "summary": "This talk summarizes our experiences from building language servers and using them across Eclipse, VS Code, and Atom. We talk about the good parts (e.g. lightweight tooling, starting fresh, write once, use everywhere, isolated testing, separate processes), the bad parts (e.g. isolation, do the work twice, size and resource consumption) and the really ugly parts (e.g. multiplied testing efforts, different clients). We also talk about the integration of our language servers with existing Java tooling to improve the Spring Boot developer experience while hacking Java code. The talk is based on experiences building language servers for Spring Boot and related projects and integrating/delivering them with Eclipse, VS Code and Atom."
+      },
+      "fromTime": "16:45",
+      "toTimeMillis": 1542039300000,
+      "toTime": "17:15",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "tia_Room4_monday_12_16h45_17h15",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542037500000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Tools-in-Action",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>With great distribution comes also great responsibility. The usage of multiple (micro-)services increases the risk of losing the overview of traceability of errors and lagging performance. A well-setup ELK stack comes in handy to keep more specific track of issues occurring to your services.</p>\n<p>But what if we want to find a specific trace concerning several services and want to know the performance of each service? With the help of Sleuth and Zipkin, we have some helpful instrumentation tools which can provide a helping hand in tracing down slow performance issues.\nIn this session, we will explore how we can setup Sleuth into your Spring Boot services and use it into your logging monitoring to add some extra overview in your services. Next, we will use Zipkin to find the culprit which is slowing down our services.</p>\n<p>Further, we will find out where we can add extra settings in our setup, to improve the combination of logging &amp; monitoring even more and make it even possibly useful for complex integration tests.\nAfter this session you will know how to use Sleuth and Zipkin to enhance your insights in the performance of your services.</p>\n",
+        "id": "UVN-2568",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/3ec19fb70764bdafcd26de67c65b633be189cda5",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Rafaëla Breed",
+              "uuid": "3ec19fb70764bdafcd26de67c65b633be189cda5"
+            },
+            "name": "Rafaëla Breed"
+          }
+        ],
+        "title": "Tracing performance of your service calls with some help of Sleuth, Zipkin & ELK",
+        "lang": "en",
+        "summary": "With great distribution comes also great responsibility. The usage of multiple (micro-)services increases the risk of losing the overview of traceability of errors and lagging performance. A well-setup ELK stack comes in handy to keep more specific track of issues occurring to your services.\r\n\r\nBut what if we want to find a specific trace concerning several services and want to know the performance of each service? With the help of Sleuth and Zipkin, we have some helpful instrumentation tools which can provide a helping hand in tracing down slow performance issues.\r\nIn this session, we will explore how we can setup Sleuth into your Spring Boot services and use it into your logging monitoring to add some extra overview in your services. Next, we will use Zipkin to find the culprit which is slowing down our services.\r\n\r\nFurther, we will find out where we can add extra settings in our setup, to improve the combination of logging & monitoring even more and make it even possibly useful for complex integration tests.\r\nAfter this session you will know how to use Sleuth and Zipkin to enhance your insights in the performance of your services."
+      },
+      "fromTime": "16:45",
+      "toTimeMillis": 1542039300000,
+      "toTime": "17:15",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "tia_Room5_monday_12_16h45_17h15",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542037500000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Tools-in-Action",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>This talk will introduce Traefik the open source reverse-proxy/load-balancer which can be used as an Ingress Controller in your container infrastructure. Traefik can interface to backends such as Kubernetes, Docker, Mesos, Consul allowing to dynamically update the routing configuration without service loss.</p>\n<p>We will look at what is a reverse-proxy, an Ingress Controller and Traefik, a state of the art reverse-proxy. We will dig even deeper and show how we made Traefik distributed, scalable and fault tolerant.</p>\n<p>Demonstration of the use of Traefik as scalable Ingress Controller on Kubernetes.</p>\n",
+        "id": "ORO-6131",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/41fff4f5cd9c2959c24310d7a1c44cbe2cb19cb6",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Damien Duportal",
+              "uuid": "41fff4f5cd9c2959c24310d7a1c44cbe2cb19cb6"
+            },
+            "name": "Damien Duportal"
+          }
+        ],
+        "title": "Traefik: A Scalable and Highly Available Edge Router",
+        "lang": "en",
+        "summary": "This talk will introduce Traefik the open source reverse-proxy/load-balancer which can be used as an Ingress Controller in your container infrastructure. Traefik can interface to backends such as Kubernetes, Docker, Mesos, Consul allowing to dynamically update the routing configuration without service loss.\r\n\r\nWe will look at what is a reverse-proxy, an Ingress Controller and Traefik, a state of the art reverse-proxy. We will dig even deeper and show how we made Traefik distributed, scalable and fault tolerant.\r\n\r\nDemonstration of the use of Traefik as scalable Ingress Controller on Kubernetes."
+      },
+      "fromTime": "16:45",
+      "toTimeMillis": 1542039300000,
+      "toTime": "17:15",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "tia_Room6_monday_12_16h45_17h15",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542037500000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Tools-in-Action",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>Exception handling in Java is often considered cumbersome and not very aesthetically appealing. In this session, we'll have a look at how functional languages deal with error handling and how we can adapt those approaches in the world of Java with Vavr.</p>\n<p>Simply put, we'll see how can we avoid “throws” by using Optional, Try, Either and by leveraging type-driven-development in general.</p>\n",
+        "id": "WDP-2014",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/ff0eb37df830d5236a41d278f7d71c98461d775f",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Grzegorz Piwowarek",
+              "uuid": "ff0eb37df830d5236a41d278f7d71c98461d775f"
+            },
+            "name": "Grzegorz Piwowarek"
+          }
+        ],
+        "title": "Functional Exception Handling in Java with Vavr",
+        "lang": "en",
+        "summary": "Exception handling in Java is often considered cumbersome and not very aesthetically appealing. In this session, we'll have a look at how functional languages deal with error handling and how we can adapt those approaches in the world of Java with Vavr.\r\n\r\nSimply put, we'll see how can we avoid “throws” by using Optional, Try, Either and by leveraging type-driven-development in general.\r\n"
+      },
+      "fromTime": "16:45",
+      "toTimeMillis": 1542039300000,
+      "toTime": "17:15",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "tia_Room8_monday_12_16h45_17h15",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542037500000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Mind the Geek",
+        "talkType": "Tools-in-Action",
+        "track": "Mind the Geek",
+        "summaryAsHtml": "<p>How could we use <strong>ElasticSearch</strong>, Facebook's machine learning framework <strong>Prophet</strong> and custom Python data mining framework to get rich ?\nLet's try to optimize crypto currency portfolio for long term investment using the biggest possible number of buzzword !</p>\n",
+        "id": "MQB-9462",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/6211aeda51006fb257c51b607c01155edfbccadf",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Pierre Paci",
+              "uuid": "6211aeda51006fb257c51b607c01155edfbccadf"
+            },
+            "name": "Pierre Paci"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/2d5f0f508ec84fc3921c7f15a7c54a39f4f87b62",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Antoine Detante",
+              "uuid": "2d5f0f508ec84fc3921c7f15a7c54a39f4f87b62"
+            },
+            "name": "Antoine Detante"
+          }
+        ],
+        "title": "Crypto currency, data mining and machine learning, wining combo ?",
+        "lang": "en",
+        "summary": "How could we use **ElasticSearch**, Facebook's machine learning framework **Prophet** and custom Python data mining framework to get rich ?\r\nLet's try to optimize crypto currency portfolio for long term investment using the biggest possible number of buzzword !"
+      },
+      "fromTime": "16:45",
+      "toTimeMillis": 1542039300000,
+      "toTime": "17:15",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "tia_Room9_monday_12_16h45_17h15",
+      "day": "monday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542039300000,
+      "break": {
+        "id": "st.17",
+        "nameEN": "Break",
+        "nameFR": "Break",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "monday",
+        "startTime": 1542039300000,
+        "endTime": 1542040200000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "17:15",
+      "toTimeMillis": 1542040200000,
+      "toTime": "17:30",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.17",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542040200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "Tools-in-Action",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>Many times the task of a test automation person is to check that the content displayed on a web page is the expected one. That can mean either just the text, but also image attributes (like the source or the size), link attributes (like: label, URL it points to, whether it opens in a new tab), and so on. The classic approach testers use for such a task is to get these properties from the page with Selenium, then check them by using an assertion for each property. This leads to way too many assertions, and difficult to understand tests, without a clear meaning.\nIn this talk i will show a different approach for checking the contents of web pages, by modelling all the needed properties into Java objects. This way, comparison will be done between expected and actual objects, not each property one by one. This will lead to more meaningful and shorter tests, while also adding reusability and easy maintenance.</p>\n",
+        "id": "AGU-8136",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/bd4764498629afe21226d3c565bab675f587b6fa",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Corina Pip",
+              "uuid": "bd4764498629afe21226d3c565bab675f587b6fa"
+            },
+            "name": "Corina Pip"
+          }
+        ],
+        "title": "Selenium Tests the Object Oriented Way",
+        "lang": "en",
+        "summary": "Many times the task of a test automation person is to check that the content displayed on a web page is the expected one. That can mean either just the text, but also image attributes (like the source or the size), link attributes (like: label, URL it points to, whether it opens in a new tab), and so on. The classic approach testers use for such a task is to get these properties from the page with Selenium, then check them by using an assertion for each property. This leads to way too many assertions, and difficult to understand tests, without a clear meaning.\r\nIn this talk i will show a different approach for checking the contents of web pages, by modelling all the needed properties into Java objects. This way, comparison will be done between expected and actual objects, not each property one by one. This will lead to more meaningful and shorter tests, while also adding reusability and easy maintenance. "
+      },
+      "fromTime": "17:30",
+      "toTimeMillis": 1542042000000,
+      "toTime": "18:00",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "tia_Room4_monday_12_17h30_18h0",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542040200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Tools-in-Action",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>Micronaut is a modern, JVM-based, full stack microservices framework designed for building modular, easily testable Micro Service applications in Java, Kotlin or Groovy. Micronaut is developed by the creators of Grails and takes inspiration from lessons learnt over the years building real-world applications from monoliths to microservices using Spring, Spring Boot and Grails.</p>\n<p>This talk covers the current features of Micronaut for building microservices, such as:</p>\n<p>Dependency Injection and Inversion of Control (IoC).\nConfiguration system.\nHTTP services.\nCloud and serverless deployments.\nManagement &amp; Monitoring.</p>\n",
+        "id": "RYF-0932",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/1421cdc6da2d62b6476748ede71009cfaec49bcf",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Alvaro Sanchez-Mariscal",
+              "uuid": "1421cdc6da2d62b6476748ede71009cfaec49bcf"
+            },
+            "name": "Alvaro Sanchez-Mariscal"
+          }
+        ],
+        "title": "Meet Micronaut: a reactive microservices framework for the JVM",
+        "lang": "en",
+        "summary": "Micronaut is a modern, JVM-based, full stack microservices framework designed for building modular, easily testable Micro Service applications in Java, Kotlin or Groovy. Micronaut is developed by the creators of Grails and takes inspiration from lessons learnt over the years building real-world applications from monoliths to microservices using Spring, Spring Boot and Grails.\r\n\r\nThis talk covers the current features of Micronaut for building microservices, such as:\r\n\r\nDependency Injection and Inversion of Control (IoC).\r\nConfiguration system.\r\nHTTP services.\r\nCloud and serverless deployments.\r\nManagement & Monitoring."
+      },
+      "fromTime": "17:30",
+      "toTimeMillis": 1542042000000,
+      "toTime": "18:00",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "tia_Room5_monday_12_17h30_18h0",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542040200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Mobile & IoT",
+        "talkType": "Tools-in-Action",
+        "track": "Mobile & IoT",
+        "summaryAsHtml": "<p>A great CI system is essential to ship quality code, fast. CI for Android development is a problem that has been solved before, but it gets a lot more interesting to keep the same quality and speed with hundreds of changes a day and hundreds of developers working on the same project. In this talk, Gautam will walk through the history of Android CI at Uber, the UX improvements for developers interacting with it and how it evolved into delivering release builds on every change. You will also learn how to incorporate such processes into your CI and CD workflows.</p>\n",
+        "id": "ILW-5611",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/7c55cebea3d51ecdce70d3ae5af047f1177c6f6c",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Gautam Korlam",
+              "uuid": "7c55cebea3d51ecdce70d3ae5af047f1177c6f6c"
+            },
+            "name": "Gautam Korlam"
+          }
+        ],
+        "title": "Dude, Where's My Build? Android CI/CD at Uber",
+        "lang": "en",
+        "summary": "A great CI system is essential to ship quality code, fast. CI for Android development is a problem that has been solved before, but it gets a lot more interesting to keep the same quality and speed with hundreds of changes a day and hundreds of developers working on the same project. In this talk, Gautam will walk through the history of Android CI at Uber, the UX improvements for developers interacting with it and how it evolved into delivering release builds on every change. You will also learn how to incorporate such processes into your CI and CD workflows."
+      },
+      "fromTime": "17:30",
+      "toTimeMillis": 1542042000000,
+      "toTime": "18:00",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "tia_Room6_monday_12_17h30_18h0",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542040200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "Tools-in-Action",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>Your brain is a ruthless despot. It just doesn’t want to let your ideas and thoughts out. But it has a weak spot. It’s susceptible to brain hacks. Let’s set your ingenuity free by coercing your brain to cast the creative flood gates wide open.</p>\n<p>I’m back to share with you a dozen hacks I use to get my brain to write fluently. Centered around the AsciiDoc markup language, we’ll explore tricks such as starting with the action, zen writing mode, the WORKLOG, the content fly trap, communicating with links, collaborative editing, and more!</p>\n<p>These tricks you play on your brain helps keeps you in writing flow and the cursor racing across the screen. After attending this session, the blank page will be your oyster instead of your nemesis.</p>\n",
+        "id": "EJC-1239",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/8551616e8ea37d9a0c962b022afc9f6b377790f6",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Dan Allen",
+              "uuid": "8551616e8ea37d9a0c962b022afc9f6b377790f6"
+            },
+            "name": "Dan Allen"
+          }
+        ],
+        "title": "A Dozen Ways to Hack Your Brain to Write Fluently",
+        "lang": "en",
+        "summary": "Your brain is a ruthless despot. It just doesn’t want to let your ideas and thoughts out. But it has a weak spot. It’s susceptible to brain hacks. Let’s set your ingenuity free by coercing your brain to cast the creative flood gates wide open.\r\n\r\nI’m back to share with you a dozen hacks I use to get my brain to write fluently. Centered around the AsciiDoc markup language, we’ll explore tricks such as starting with the action, zen writing mode, the WORKLOG, the content fly trap, communicating with links, collaborative editing, and more!\r\n\r\nThese tricks you play on your brain helps keeps you in writing flow and the cursor racing across the screen. After attending this session, the blank page will be your oyster instead of your nemesis."
+      },
+      "fromTime": "17:30",
+      "toTimeMillis": 1542042000000,
+      "toTime": "18:00",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "tia_Room8_monday_12_17h30_18h0",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542040200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Methodology & Culture",
+        "talkType": "Tools-in-Action",
+        "track": "Methodology & Culture",
+        "summaryAsHtml": "<p>This session discusses concepts and integrates DevOps enabler tools to inspect source code of our Java application and its packaged binaries (Docker images) as part of a holistic Jenkins-based Continuous Delivery pipeline, largely run on and staged toward Oracle Cloud. We examine how SonarQube (with SonarLint) as well as Twistlock help to deliver software fast and in good quality. After the session you better understand Continuous Delivery concepts and tools, particularly how to inject security-related quality gates. The live demo is derived from couple of real-world success stories.</p>\n",
+        "id": "QIF-9171",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/7dbca6c6316ec14fd7a30d99f5646e1aab680b8f",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Michael Hüttermann",
+              "uuid": "7dbca6c6316ec14fd7a30d99f5646e1aab680b8f"
+            },
+            "name": "Michael Hüttermann"
+          }
+        ],
+        "title": "The Silence of the Lambs: Inspecting Source Code and Binaries, in Continuous Delivery Pipelines ",
+        "lang": "en",
+        "summary": "This session discusses concepts and integrates DevOps enabler tools to inspect source code of our Java application and its packaged binaries (Docker images) as part of a holistic Jenkins-based Continuous Delivery pipeline, largely run on and staged toward Oracle Cloud. We examine how SonarQube (with SonarLint) as well as Twistlock help to deliver software fast and in good quality. After the session you better understand Continuous Delivery concepts and tools, particularly how to inject security-related quality gates. The live demo is derived from couple of real-world success stories.\r\n"
+      },
+      "fromTime": "17:30",
+      "toTimeMillis": 1542042000000,
+      "toTime": "18:00",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "tia_Room9_monday_12_17h30_18h0",
+      "day": "monday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542042000000,
+      "break": {
+        "id": "st.17",
+        "nameEN": "Break",
+        "nameFR": "Break",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "monday",
+        "startTime": 1542042000000,
+        "endTime": 1542042900000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "18:00",
+      "toTimeMillis": 1542042900000,
+      "toTime": "18:15",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.17",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542042900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "Tools-in-Action",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>GraphQL SPQR is a simple-to-use library for rapid development of GraphQL APIs in Java. It does away with the model duplication and the ceremony inherent in the traditional approaches, and promises the fastest route to GraphQL, for both the new and legacy apps.</p>\n",
+        "id": "ROJ-4211",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/81204e28f5a343c4f9812c91835b0ac8bffb763a",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Bojan Tomić",
+              "uuid": "81204e28f5a343c4f9812c91835b0ac8bffb763a"
+            },
+            "name": "Bojan Tomić"
+          }
+        ],
+        "title": "GraphQL SPQR: The fastest route to GraphQL",
+        "lang": "en",
+        "summary": "GraphQL SPQR is a simple-to-use library for rapid development of GraphQL APIs in Java. It does away with the model duplication and the ceremony inherent in the traditional approaches, and promises the fastest route to GraphQL, for both the new and legacy apps."
+      },
+      "fromTime": "18:15",
+      "toTimeMillis": 1542044700000,
+      "toTime": "18:45",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "tia_Room4_monday_12_18h15_18h45",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542042900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Tools-in-Action",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>Memory leaks are not always simple or easy to find. Heap dumps from production systems are often gigantic (4+ gigs) with millions of objects in memory. Simple spot checking with traditional tools is woefully inadequate in these situations, especially with real data. Leaks can be entire object graphs with enormous amounts of noise. This session will show you how to build custom tools using the Apache NetBeans Profiler/Heapwalker APIs. Using these APIs, you can read and analyze Java heaps programmatically to ask really hard questions. This gives you the power to analyze complex object graphs with tens of thousands of objects in seconds.</p>\n",
+        "id": "GVB-7806",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/ebc71affcab6b0cd8096485dcc252d04ee9b237e",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Ryan Cuprak",
+              "uuid": "ebc71affcab6b0cd8096485dcc252d04ee9b237e"
+            },
+            "name": "Ryan Cuprak"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/5a43137d8534ce08e6fb7b1cd8625f41c5289efd",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Geertjan Wielenga",
+              "uuid": "5a43137d8534ce08e6fb7b1cd8625f41c5289efd"
+            },
+            "name": "Geertjan Wielenga"
+          }
+        ],
+        "title": "Exploring Java Heap Dumps",
+        "lang": "en",
+        "summary": "Memory leaks are not always simple or easy to find. Heap dumps from production systems are often gigantic (4+ gigs) with millions of objects in memory. Simple spot checking with traditional tools is woefully inadequate in these situations, especially with real data. Leaks can be entire object graphs with enormous amounts of noise. This session will show you how to build custom tools using the Apache NetBeans Profiler/Heapwalker APIs. Using these APIs, you can read and analyze Java heaps programmatically to ask really hard questions. This gives you the power to analyze complex object graphs with tens of thousands of objects in seconds. "
+      },
+      "fromTime": "18:15",
+      "toTimeMillis": 1542044700000,
+      "toTime": "18:45",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "tia_Room5_monday_12_18h15_18h45",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542042900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Tools-in-Action",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>In one hand Kubernetes became the standard for the deployment of microservices and we started to see people stating that you can also take advantage of Kubernetes to deploy your legacy applications in the cloud. In the other hand GitLab and its integrated GitLab CI get always more attention and it can now perfectly integrate with Kubernetes clusters.</p>\n<p>Based on our experience we'll show you how Kubernetes (with a touch of GitLab CI magic) may be your best friend to take your existing development workflow to the next level. This presentation will not be about continuous delivery and Kubernetes in production. It will be about Kubernetes for the ordinary developer in the room.</p>\n<p>We developed a few utilities and created a powerful workflow that is now enabled on projects in our company. We'll be speaking about enabling dynamic environments for feature branches, easy update of existing Kubernetes deployments, some heresy like embedding an application server into a Pod, having fun as a developer and much more.</p>\n",
+        "id": "TOW-7592",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/d93e2531582a3f47de85f60b52dbd8aac04afb35",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Stéphane Tournié",
+              "uuid": "d93e2531582a3f47de85f60b52dbd8aac04afb35"
+            },
+            "name": "Stéphane Tournié"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/5ff931f7cb9b9ddbda86b842319541e60203b55c",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Etienne Vrignaud",
+              "uuid": "5ff931f7cb9b9ddbda86b842319541e60203b55c"
+            },
+            "name": "Etienne Vrignaud"
+          }
+        ],
+        "title": "Power of cloud dev environments for your legacy projects",
+        "lang": "en",
+        "summary": "In one hand Kubernetes became the standard for the deployment of microservices and we started to see people stating that you can also take advantage of Kubernetes to deploy your legacy applications in the cloud. In the other hand GitLab and its integrated GitLab CI get always more attention and it can now perfectly integrate with Kubernetes clusters.\r\n\r\nBased on our experience we'll show you how Kubernetes (with a touch of GitLab CI magic) may be your best friend to take your existing development workflow to the next level. This presentation will not be about continuous delivery and Kubernetes in production. It will be about Kubernetes for the ordinary developer in the room.\r\n\r\nWe developed a few utilities and created a powerful workflow that is now enabled on projects in our company. We'll be speaking about enabling dynamic environments for feature branches, easy update of existing Kubernetes deployments, some heresy like embedding an application server into a Pod, having fun as a developer and much more."
+      },
+      "fromTime": "18:15",
+      "toTimeMillis": 1542044700000,
+      "toTime": "18:45",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "tia_Room6_monday_12_18h15_18h45",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542042900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Methodology & Culture",
+        "talkType": "Tools-in-Action",
+        "track": "Methodology & Culture",
+        "summaryAsHtml": "<p>Is functional programming useful or just a hype? Why should I even care? What good is it to me? Used correctly, functional programming concepts make code easier to read, understand and change. Used incorrectly, they will make a mess of your code. Let’s use them correctly, shall we?</p>\n<p>For a while now, functional programming has been a hot topic in the Java community - though for many people it means stuff like “use Streams” and “write X as a lambda”. Functional programming is however so much more. In this session I’ll discuss some of the main concepts from functional programming that are relevant for Java developers. I’ll talk about when you want to use it - and when you probably don’t. Then I’ll show you ways to create useful functional code using a both core Java and a few helpful libraries.</p>\n",
+        "id": "EHE-0587",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/5d72df99a9534dc88b752508970034f37b476ade",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Alasdair Collinson",
+              "uuid": "5d72df99a9534dc88b752508970034f37b476ade"
+            },
+            "name": "Alasdair Collinson"
+          }
+        ],
+        "title": "Functional Programming in Java - When, Why and How?",
+        "lang": "en",
+        "summary": "Is functional programming useful or just a hype? Why should I even care? What good is it to me? Used correctly, functional programming concepts make code easier to read, understand and change. Used incorrectly, they will make a mess of your code. Let’s use them correctly, shall we?\r\n\r\nFor a while now, functional programming has been a hot topic in the Java community - though for many people it means stuff like “use Streams” and “write X as a lambda”. Functional programming is however so much more. In this session I’ll discuss some of the main concepts from functional programming that are relevant for Java developers. I’ll talk about when you want to use it - and when you probably don’t. Then I’ll show you ways to create useful functional code using a both core Java and a few helpful libraries."
+      },
+      "fromTime": "18:15",
+      "toTimeMillis": 1542044700000,
+      "toTime": "18:45",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "tia_Room8_monday_12_18h15_18h45",
+      "day": "monday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542042900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Mobile & IoT",
+        "talkType": "Tools-in-Action",
+        "track": "Mobile & IoT",
+        "summaryAsHtml": "<p>At I/O 2018, Google released the Firebase ML Kit which creates various exciting opportunities for Android Developers aiming to build smart apps without having to worry about the nitty-gritties of Machine Learning.</p>\n<p>The Firebase ML Kit APIs offer features like face detection, text recognition, object detection, etc.\nYour apps can also label a provided image for special characteristics and identify popular landmarks in a picture.</p>\n<p>In this talk, I will outline the usage of all the 5 APIs available in Firebase ML Kit\nand I’ll be doing so by using a sample app that utilizes these APIs.</p>\n<p>I will be walking you through the working of each api and you will leave the talk having sufficient knowledge of the APIs to go ahead and implement them in your own apps.</p>\n",
+        "id": "YMX-5931",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/b045e3abfee76eb6cac924a4469b572318b0fc1c",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Harshit Dwivedi",
+              "uuid": "b045e3abfee76eb6cac924a4469b572318b0fc1c"
+            },
+            "name": "Harshit Dwivedi"
+          }
+        ],
+        "title": "Firebase ML Kit : Machine Learning made easy",
+        "lang": "en",
+        "summary": "At I/O 2018, Google released the Firebase ML Kit which creates various exciting opportunities for Android Developers aiming to build smart apps without having to worry about the nitty-gritties of Machine Learning. \r\n\r\nThe Firebase ML Kit APIs offer features like face detection, text recognition, object detection, etc. \r\nYour apps can also label a provided image for special characteristics and identify popular landmarks in a picture.\r\n\r\nIn this talk, I will outline the usage of all the 5 APIs available in Firebase ML Kit\r\nand I’ll be doing so by using a sample app that utilizes these APIs.\r\n\r\nI will be walking you through the working of each api and you will leave the talk having sufficient knowledge of the APIs to go ahead and implement them in your own apps.\r\n"
+      },
+      "fromTime": "18:15",
+      "toTimeMillis": 1542044700000,
+      "toTime": "18:45",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "tia_Room9_monday_12_18h15_18h45",
+      "day": "monday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542044700000,
+      "break": {
+        "id": "st.17",
+        "nameEN": "Break",
+        "nameFR": "Break",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "monday",
+        "startTime": 1542044700000,
+        "endTime": 1542045600000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "18:45",
+      "toTimeMillis": 1542045600000,
+      "toTime": "19:00",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.17",
+      "day": "monday"
+    },
+    {
+      "roomId": "BOF1",
+      "notAllocated": false,
+      "fromTimeMillis": 1542045600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Methodology & Culture",
+        "talkType": "BOF",
+        "track": "Methodology & Culture",
+        "summaryAsHtml": "<p>In this interactive DevOps BOF, we want to discuss the past, the presence and the future of software development and delivery across functions, commonly known as DevOps. This is the platform to meet DevOps experts, upcoming DevOps experts, and the community in order to exchange experience and learn from others. Discussed topics are up to the group, but will surely again be a charming mixture of both concepts and tools.</p>\n",
+        "id": "HHU-4629",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/7dbca6c6316ec14fd7a30d99f5646e1aab680b8f",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Michael Hüttermann",
+              "uuid": "7dbca6c6316ec14fd7a30d99f5646e1aab680b8f"
+            },
+            "name": "Michael Hüttermann"
+          }
+        ],
+        "title": "DevOps: State of the Union",
+        "lang": "en",
+        "summary": "In this interactive DevOps BOF, we want to discuss the past, the presence and the future of software development and delivery across functions, commonly known as DevOps. This is the platform to meet DevOps experts, upcoming DevOps experts, and the community in order to exchange experience and learn from others. Discussed topics are up to the group, but will surely again be a charming mixture of both concepts and tools."
+      },
+      "fromTime": "19:00",
+      "toTimeMillis": 1542049200000,
+      "toTime": "20:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "bof_BOF1_monday_12_19h0_20h0",
+      "day": "monday"
+    },
+    {
+      "roomId": "BOF2",
+      "notAllocated": false,
+      "fromTimeMillis": 1542045600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "BOF",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>As of Java 11, the JavaFX modules are decoupled from the core JDK distribution. In this session, we talk about how developers can create and distribute applications leveraging the JavaFX Platform. We explain how the OpenJFX repository is organized, how builds are created, and how developers can influence the roadmap.</p>\n",
+        "id": "PAZ-3181",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/a6998d75a88dfaed52aae5bbbe7f402b5515f85a",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Kevin Rushforth",
+              "uuid": "a6998d75a88dfaed52aae5bbbe7f402b5515f85a"
+            },
+            "name": "Kevin Rushforth"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/4bd12c1233e3f991ddc936c8cac93e086f834a31",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Johan Vos",
+              "uuid": "4bd12c1233e3f991ddc936c8cac93e086f834a31"
+            },
+            "name": "Johan Vos"
+          }
+        ],
+        "title": "JavaFX.next",
+        "lang": "en",
+        "summary": "As of Java 11, the JavaFX modules are decoupled from the core JDK distribution. In this session, we talk about how developers can create and distribute applications leveraging the JavaFX Platform. We explain how the OpenJFX repository is organized, how builds are created, and how developers can influence the roadmap."
+      },
+      "fromTime": "19:00",
+      "toTimeMillis": 1542049200000,
+      "toTime": "20:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "bof_BOF2_monday_12_19h0_20h0",
+      "day": "monday"
+    },
+    {
+      "roomId": "BOF1",
+      "notAllocated": false,
+      "fromTimeMillis": 1542049200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Server Side Java",
+        "talkType": "BOF",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>This BOF is a discussion with Eclipse MicroProfile community member about the recent release of this project, such as MicroProfile 2.1, based on Java EE 8 specifications; the future vision, including the relationship of MicroProfile to Jakarta EE; and the current in-progress specifications. These include reactive support, concurrency, service mesh, among others. Come hear first-hand from those in the community what has been going on, what’s going on, and what’s coming up. Get your voice and opinions heard!</p>\n",
+        "id": "WJT-1250",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/b32e73d3b070f325d520e8908113abf600da0e0a",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Emily Jiang",
+              "uuid": "b32e73d3b070f325d520e8908113abf600da0e0a"
+            },
+            "name": "Emily Jiang"
+          }
+        ],
+        "title": "MicroProfile: Past, Present and Future ",
+        "lang": "en",
+        "summary": "This BOF is a discussion with Eclipse MicroProfile community member about the recent release of this project, such as MicroProfile 2.1, based on Java EE 8 specifications; the future vision, including the relationship of MicroProfile to Jakarta EE; and the current in-progress specifications. These include reactive support, concurrency, service mesh, among others. Come hear first-hand from those in the community what has been going on, what’s going on, and what’s coming up. Get your voice and opinions heard! "
+      },
+      "fromTime": "20:00",
+      "toTimeMillis": 1542052800000,
+      "toTime": "21:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "bof_BOF1_monday_12_20h0_21h0",
+      "day": "monday"
+    },
+    {
+      "roomId": "BOF2",
+      "notAllocated": false,
+      "fromTimeMillis": 1542049200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "BOF",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>Your style of code is on of the things that makes you unique on the other hand, wars are started over something simple as the layout of code. What kind of coder are you? Are you on the spaces or on the tabs side. Perhaps you don't care about styles as long as it works, or do you refuse to read incorrectly styled code. Do we need style guidelines or don't we, lets decide together and see what kind of flavour Devoxx Belgium has...</p>\n",
+        "id": "WWU-4466",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/6b986eacc127d88cd01978f0cbf853fa79708b71",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Brian Vermeer",
+              "uuid": "6b986eacc127d88cd01978f0cbf853fa79708b71"
+            },
+            "name": "Brian Vermeer"
+          }
+        ],
+        "title": "Code style: what kind of coder are you",
+        "lang": "en",
+        "summary": "Your style of code is on of the things that makes you unique on the other hand, wars are started over something simple as the layout of code. What kind of coder are you? Are you on the spaces or on the tabs side. Perhaps you don't care about styles as long as it works, or do you refuse to read incorrectly styled code. Do we need style guidelines or don't we, lets decide together and see what kind of flavour Devoxx Belgium has..."
+      },
+      "fromTime": "20:00",
+      "toTimeMillis": 1542052800000,
+      "toTime": "21:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "bof_BOF2_monday_12_20h0_21h0",
+      "day": "monday"
+    }
+  ]
+}

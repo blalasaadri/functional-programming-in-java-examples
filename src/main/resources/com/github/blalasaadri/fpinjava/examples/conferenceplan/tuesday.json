@@ -1,0 +1,1486 @@
+{
+  "slots": [
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542094200000,
+      "break": {
+        "id": "st.49",
+        "nameEN": "Breakfast & Exhibition opens",
+        "nameFR": "Breakfast & Exhibition opens",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "tuesday",
+        "startTime": 1542094200000,
+        "endTime": 1542097800000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "08:30",
+      "toTimeMillis": 1542097800000,
+      "toTime": "09:30",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.49",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542097800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "Deep Dive",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>Kotlin is a statically typed programming language for modern multiplatform applications language.</p>\n<p>We start with the basics, the introduction into the language. We discuss language features in deep and cover DSLs. You’ll see how static typed DSLs are created and you will be able to understand the magic behind it.</p>\n<p>Next, we switch to coroutines in Kotlin and explain how a suspend functions help. You’ll learn how ‘suspend’ functions and Kotlin coroutines are used to simplify callback driven programming and help to turn callback-style code it to a linear looking code.</p>\n<p>With Kotlin you can compile your code for JVM, Android, iOS, Mac, and JS. With multiplatform projects, you may easily reuse Kotlin code between platforms. You’ll see how same Kotlin code is used in JS, JVM, Android, and iOS.</p>\n",
+        "id": "QCM-9359",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/2bdeb54b47c914bbf0fdb00fe4a9c18ac28484a8",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Eugene Petrenko",
+              "uuid": "2bdeb54b47c914bbf0fdb00fe4a9c18ac28484a8"
+            },
+            "name": "Eugene Petrenko"
+          }
+        ],
+        "title": "Kotlin Deep Dive",
+        "lang": "en",
+        "summary": "Kotlin is a statically typed programming language for modern multiplatform applications language. \r\n\r\nWe start with the basics, the introduction into the language. We discuss language features in deep and cover DSLs. You’ll see how static typed DSLs are created and you will be able to understand the magic behind it.\r\n\r\nNext, we switch to coroutines in Kotlin and explain how a suspend functions help. You’ll learn how ‘suspend’ functions and Kotlin coroutines are used to simplify callback driven programming and help to turn callback-style code it to a linear looking code.\r\n\r\nWith Kotlin you can compile your code for JVM, Android, iOS, Mac, and JS. With multiplatform projects, you may easily reuse Kotlin code between platforms. You’ll see how same Kotlin code is used in JS, JVM, Android, and iOS. "
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542108600000,
+      "toTime": "12:30",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "uni_Room4_tuesday_13_9h30_12h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542097800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Architecture & Security",
+        "talkType": "Deep Dive",
+        "track": "Architecture & Security",
+        "summaryAsHtml": "<p>Building secure microservices requires mastering a variety of patterns, protocols, frameworks, and technologies. This deep dive provides a holistic end-to-end view of how to secure microservices using industry standard protocols and Spring. The goal is to present how standards such as JWT, JWA, JWS, JWE, JWK, OAuth2, OpenID Connect, TLS can be combined to make writing secure microservices easy.</p>\n<p>The deep dive will alternate between slides that explain the security standards and protocols and code walkthroughs/live coding showing how to apply the patterns and standards using Spring Security 5.1. We will demonstrate the following patterns and their implementations.</p>\n<ul>\n<li>Web SSO Login<br  /></li>\n<li>Implementing OAuth2 resource servers</li>\n<li>Implementing edge service gateways</li>\n<li>Token Exchange in a microservice call chain</li>\n<li>Token Relay in a microservice call chain</li>\n<li>Integration with OpenID Connect / OAuth2 Servers</li>\n<li>Features of Spring Security 5.1 that make it easier to secure microservices</li>\n</ul>\n<p>We assume no prior experience with security standards or Spring Security. However, we assume that you are comfortable reading Java code and web development.</p>\n",
+        "id": "CNS-4429",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/ce0e7c7bc221e512ab776802963ddea755f2d557",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Joe Grandja",
+              "uuid": "ce0e7c7bc221e512ab776802963ddea755f2d557"
+            },
+            "name": "Joe Grandja"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/14607f603130b340dddb453269fa5dbf4cb6761d",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Adib Saikali",
+              "uuid": "14607f603130b340dddb453269fa5dbf4cb6761d"
+            },
+            "name": "Adib Saikali"
+          }
+        ],
+        "title": "Implementing Microservices Security Patterns & Protocols with Spring Deep Dive",
+        "lang": "en",
+        "summary": "Building secure microservices requires mastering a variety of patterns, protocols, frameworks, and technologies. This deep dive provides a holistic end-to-end view of how to secure microservices using industry standard protocols and Spring. The goal is to present how standards such as JWT, JWA, JWS, JWE, JWK, OAuth2, OpenID Connect, TLS can be combined to make writing secure microservices easy.\r\n\r\nThe deep dive will alternate between slides that explain the security standards and protocols and code walkthroughs/live coding showing how to apply the patterns and standards using Spring Security 5.1. We will demonstrate the following patterns and their implementations.\r\n\r\n-   Web SSO Login   \r\n-   Implementing OAuth2 resource servers\r\n-   Implementing edge service gateways\r\n-   Token Exchange in a microservice call chain\r\n-   Token Relay in a microservice call chain\r\n-   Integration with OpenID Connect / OAuth2 Servers\r\n-   Features of Spring Security 5.1 that make it easier to secure microservices\r\n\r\nWe assume no prior experience with security standards or Spring Security. However, we assume that you are comfortable reading Java code and web development."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542108600000,
+      "toTime": "12:30",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "uni_Room5_tuesday_13_9h30_12h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542097800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Modern Web & UX",
+        "talkType": "Deep Dive",
+        "track": "Modern Web & UX",
+        "summaryAsHtml": "<p>JavaScript has come a long way in the past few years. If you've looked at JavaScript in the past and hated or feared it, you will learn from this session how JavaScript has transformed into an elegant and highly tolerable language with ES 6, ES 7, and ES 8 versions. You will learn about some of the amazing features of JavaScript that leads to elegant and fluent syntax to create concise code.</p>\n",
+        "id": "SUV-8791",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/af8a385bb3e6caef5337c94d51e0999994e120e5",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Venkat Subramaniam",
+              "uuid": "af8a385bb3e6caef5337c94d51e0999994e120e5"
+            },
+            "name": "Venkat Subramaniam"
+          }
+        ],
+        "title": "Rediscovering JavaScript",
+        "lang": "en",
+        "summary": "JavaScript has come a long way in the past few years. If you've looked at JavaScript in the past and hated or feared it, you will learn from this session how JavaScript has transformed into an elegant and highly tolerable language with ES 6, ES 7, and ES 8 versions. You will learn about some of the amazing features of JavaScript that leads to elegant and fluent syntax to create concise code."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542108600000,
+      "toTime": "12:30",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "uni_Room6_tuesday_13_9h30_12h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542097800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Deep Dive",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>What is the state of lambda expressions in Java 11? Lambda expressions are the major feature of Java 8, having an impact on most of the API, including the Streams and Collections API. We are now living the Java 11 days; new features have been added and new patterns have emerged. This highly technical Deep Dive session will visit all these patterns, the well-known ones and the new ones, in an interactive hybrid of lecture and laboratory. We present a technique and show how it helps solve a problem. We then present another problem, and give you some time to solve it yourself. Finally, we present a solution, and open for questions, comments, and discussion. Bring your laptop set up with JDK 11 and your favorite IDE, and be prepared to think!</p>\n<p>This session is part 2 of 2 parts. In part 2 we will cover techniques for using streams, Optional, and Collectors.</p>\n",
+        "id": "BLI-5468",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/e14ef4212ffd330e97f9a0ff3420fc27714d4b0d",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "José Paumard",
+              "uuid": "e14ef4212ffd330e97f9a0ff3420fc27714d4b0d"
+            },
+            "name": "José Paumard"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/a733dc53923e5acd86780590978c563ce1e2582e",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Stuart Marks",
+              "uuid": "a733dc53923e5acd86780590978c563ce1e2582e"
+            },
+            "name": "Stuart Marks"
+          }
+        ],
+        "title": "Lambdas and Streams Master Class Part 2",
+        "lang": "en",
+        "summary": "What is the state of lambda expressions in Java 11? Lambda expressions are the major feature of Java 8, having an impact on most of the API, including the Streams and Collections API. We are now living the Java 11 days; new features have been added and new patterns have emerged. This highly technical Deep Dive session will visit all these patterns, the well-known ones and the new ones, in an interactive hybrid of lecture and laboratory. We present a technique and show how it helps solve a problem. We then present another problem, and give you some time to solve it yourself. Finally, we present a solution, and open for questions, comments, and discussion. Bring your laptop set up with JDK 11 and your favorite IDE, and be prepared to think!\r\n\r\nThis session is part 2 of 2 parts. In part 2 we will cover techniques for using streams, Optional, and Collectors."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542108600000,
+      "toTime": "12:30",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "uni_Room8_tuesday_13_9h30_12h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542097800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Modern Web & UX",
+        "talkType": "Deep Dive",
+        "track": "Modern Web & UX",
+        "summaryAsHtml": "<p>The way users access the internet has changed. With the huge improvement of smartphones and mobile devices, millions of people from around the world are now using internet a lot more on a mobile device than on a desktop.</p>\n<p>You have a web site and you want to reach more mobile users, so you planned to crate a mobile app for that, have you considered a Progressive Web App?</p>\n<p>During this session, we'll see why PWA in some cases should be considered as a serious alternative to native mobile apps.</p>\n<p>Along live coding sessions, we are going to explain the baseline of a PWA and we are going to show how to combine existing HTML5 features to create a native-app-like user experiences (Service Worker, Cache, Push Notifications, Offline Storage, Background sync...).</p>\n",
+        "id": "RUD-1687",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/ec730bcb63b4b092743263fbd50be260c2a62437",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Guillaume Soldera",
+              "uuid": "ec730bcb63b4b092743263fbd50be260c2a62437"
+            },
+            "name": "Guillaume Soldera"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/1c67d2de8e86b5e360bc67885d55a91d8f54f4f1",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Fedi Salah",
+              "uuid": "1c67d2de8e86b5e360bc67885d55a91d8f54f4f1"
+            },
+            "name": "Fedi Salah"
+          }
+        ],
+        "title": "Progressive Web Apps in action!",
+        "lang": "en",
+        "summary": "The way users access the internet has changed. With the huge improvement of smartphones and mobile devices, millions of people from around the world are now using internet a lot more on a mobile device than on a desktop. \r\n\r\nYou have a web site and you want to reach more mobile users, so you planned to crate a mobile app for that, have you considered a Progressive Web App?\r\n\r\nDuring this session, we'll see why PWA in some cases should be considered as a serious alternative to native mobile apps.\r\n\r\nAlong live coding sessions, we are going to explain the baseline of a PWA and we are going to show how to combine existing HTML5 features to create a native-app-like user experiences (Service Worker, Cache, Push Notifications, Offline Storage, Background sync...)."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542108600000,
+      "toTime": "12:30",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "uni_Room9_tuesday_13_9h30_12h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "BOF1",
+      "notAllocated": false,
+      "fromTimeMillis": 1542097800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "Hands-on Lab",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>This hands-on lab is focused on learning asynchronous programming with Kotlin coroutines. Specifically we will learn about:</p>\n<ul>\n<li>basic idea of Kotlin coroutines, suspending functions and suspending lambdas,</li>\n<li>how to create, launch and manage coroutines,</li>\n<li>internals of suspending functions and Kotlin compiler,</li>\n<li>CoroutineContext - its role and programming patterns,</li>\n<li>sharing state with Mutexes,</li>\n<li>concurrent programming with channels/actors and select expressions,</li>\n<li>interoperability with existing libraries (CompletableFuture, reactive programming libraries).</li>\n</ul>\n",
+        "id": "PZF-8039",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/17ec2e4c9dbcdd0f5eabab51f3df4fcea7ff2336",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Konrad Kamiński",
+              "uuid": "17ec2e4c9dbcdd0f5eabab51f3df4fcea7ff2336"
+            },
+            "name": "Konrad Kamiński"
+          }
+        ],
+        "title": "Creating asynchronous applications with Kotlin coroutines",
+        "lang": "en",
+        "summary": "This hands-on lab is focused on learning asynchronous programming with Kotlin coroutines. Specifically we will learn about:\r\n\r\n* basic idea of Kotlin coroutines, suspending functions and suspending lambdas,\r\n* how to create, launch and manage coroutines,\r\n* internals of suspending functions and Kotlin compiler,\r\n* CoroutineContext - its role and programming patterns,\r\n* sharing state with Mutexes,\r\n* concurrent programming with channels/actors and select expressions,\r\n* interoperability with existing libraries (CompletableFuture, reactive programming libraries)."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542108600000,
+      "toTime": "12:30",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "lab_BOF1_tuesday_13_9h30_12h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "BOF2",
+      "notAllocated": false,
+      "fromTimeMillis": 1542097800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Methodology & Culture",
+        "talkType": "Hands-on Lab",
+        "track": "Methodology & Culture",
+        "summaryAsHtml": "<p>Your life is a mess, you keep dropping important subjects, you procrastinate like there is no tomorrow and you feel overwhelmed. Not only professionally. Your personal life is even worse. This has happened to us too. But we have found techniques to get back in control. And we would like to share what we have learned. We are not gurus nor productivity experts, but like you information age professionals and hackers. We just hacked our life.</p>\n<p>Getting Things Done, Personal Kanban, Inbox Zero, these techniques all share a common foundation. Let’s use this lab to let you experience what these techniques are about, and maybe your first step towards a more zen organized life.</p>\n",
+        "id": "WXY-5778",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/05afda51d686bab49c8687025d0b07b00ce45a0b",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Emmanuel Bernard",
+              "uuid": "05afda51d686bab49c8687025d0b07b00ce45a0b"
+            },
+            "name": "Emmanuel Bernard"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/f4d62663a544d0fbc01f78016838f5f411f2580a",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Guillaume LOURS",
+              "uuid": "f4d62663a544d0fbc01f78016838f5f411f2580a"
+            },
+            "name": "Guillaume LOURS"
+          }
+        ],
+        "title": "Personal productivity lab: optimizing made personal",
+        "lang": "en",
+        "summary": "Your life is a mess, you keep dropping important subjects, you procrastinate like there is no tomorrow and you feel overwhelmed. Not only professionally. Your personal life is even worse. This has happened to us too. But we have found techniques to get back in control. And we would like to share what we have learned. We are not gurus nor productivity experts, but like you information age professionals and hackers. We just hacked our life.\r\n\r\nGetting Things Done, Personal Kanban, Inbox Zero, these techniques all share a common foundation. Let’s use this lab to let you experience what these techniques are about, and maybe your first step towards a more zen organized life."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542108600000,
+      "toTime": "12:30",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "lab_BOF2_tuesday_13_9h30_12h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542108600000,
+      "break": {
+        "id": "st.15",
+        "nameEN": "Lunch",
+        "nameFR": "Lunch",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "tuesday",
+        "startTime": 1542108600000,
+        "endTime": 1542112200000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "12:30",
+      "toTimeMillis": 1542112200000,
+      "toTime": "13:30",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.15",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542112200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Deep Dive",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>3 Belgian companies will present their move to the Cloud on 3 different Cloud providers. War stories means not only the success stories, but also the struggles and learnings along the way.</p>\n<p>Gert Leenders will represent \"De Persgroup\" and the move to Lambda in AWS. Alex Van Boxel will represent \"Vente-Exclusive.com\" on Google Cloud and their focus on data and (placeholder for Azure... we'll find someone)</p>\n",
+        "id": "HAO-1908",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/96678a1719c019691241d937530700d7c0f58768",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Gert Leenders",
+              "uuid": "96678a1719c019691241d937530700d7c0f58768"
+            },
+            "name": "Gert Leenders"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/7a1ed3166072356dde9cbb5453540f0d02059921",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Alex Van Boxel",
+              "uuid": "7a1ed3166072356dde9cbb5453540f0d02059921"
+            },
+            "name": "Alex Van Boxel"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/4017188c2821621bd62e55f9035c7e48733b79c1",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Michaël Hompus",
+              "uuid": "4017188c2821621bd62e55f9035c7e48733b79c1"
+            },
+            "name": "Michaël Hompus"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/bb15ab5b46b4a1371708898c04565deec0549c26",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Tim Bogaert",
+              "uuid": "bb15ab5b46b4a1371708898c04565deec0549c26"
+            },
+            "name": "Tim Bogaert"
+          }
+        ],
+        "title": "Cloud - War Stories",
+        "lang": "en",
+        "summary": "3 Belgian companies will present their move to the Cloud on 3 different Cloud providers. War stories means not only the success stories, but also the struggles and learnings along the way.\r\n\r\nGert Leenders will represent \"De Persgroup\" and the move to Lambda in AWS. Alex Van Boxel will represent \"Vente-Exclusive.com\" on Google Cloud and their focus on data and (placeholder for Azure... we'll find someone)"
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542123000000,
+      "toTime": "16:30",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "uni_Room4_tuesday_13_13h30_16h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542112200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Modern Web ",
+        "talkType": "Deep Dive",
+        "track": "Modern Web ",
+        "summaryAsHtml": "<p>When moving to client-side technologies, TypeScript is a natural fit for everyone coming from strongly typed languages.\nBeing a true superset of JavaScript, TypeScript adds a powerful type system and language features to help developers from other languages stay alert in a world where \"undefined is not a function\".\nIn this three hour deep dive session, you will learn TypeScript from the ground up.</p>\n<p>The course covers in depth language features, tooling and real world examples. After this deep dive course you will be able to do the following:</p>\n<ul>\n<li>Use TypeScript in your regular JavaScript files, without any new syntax at all</li>\n<li>Apply TypeScript's language features, from simple string types to Decorators and Generics</li>\n<li>Set up TypeScript with Webpack</li>\n<li>Set up tooling to check your code for errors</li>\n<li>Set up the perfect TypeScript IDE/Editor</li>\n<li>Create union, intersection, index, mapped and conditional types for advanced type checks and tooling support</li>\n<li>Use TypeScript's type inference for React and Angular</li>\n</ul>\n<p>Join us to make the web world a (type-) safer place!</p>\n",
+        "id": "VND-4382",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/b6b49f4fb582f67512ac2f8aa540549c4845f843",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Deepu K Sasidharan",
+              "uuid": "b6b49f4fb582f67512ac2f8aa540549c4845f843"
+            },
+            "name": "Deepu K Sasidharan"
+          }
+        ],
+        "title": "TypeScript: Complete",
+        "lang": "en",
+        "summary": "When moving to client-side technologies, TypeScript is a natural fit for everyone coming from strongly typed languages. \r\nBeing a true superset of JavaScript, TypeScript adds a powerful type system and language features to help developers from other languages stay alert in a world where \"undefined is not a function\". \r\nIn this three hour deep dive session, you will learn TypeScript from the ground up.\r\n\r\nThe course covers in depth language features, tooling and real world examples. After this deep dive course you will be able to do the following:\r\n\r\n* Use TypeScript in your regular JavaScript files, without any new syntax at all\r\n* Apply TypeScript's language features, from simple string types to Decorators and Generics\r\n* Set up TypeScript with Webpack\r\n* Set up tooling to check your code for errors\r\n* Set up the perfect TypeScript IDE/Editor\r\n* Create union, intersection, index, mapped and conditional types for advanced type checks and tooling support\r\n* Use TypeScript's type inference for React and Angular\r\n\r\nJoin us to make the web world a (type-) safer place!"
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542123000000,
+      "toTime": "16:30",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "uni_Room5_tuesday_13_13h30_16h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542112200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Big Data & Machine Learning",
+        "talkType": "Deep Dive",
+        "track": "Big Data & Machine Learning",
+        "summaryAsHtml": "<p>Neural Networks, Deep Learning: there's not a week without a thunderous announcement claiming that Artificial Intelligence limits are once again pushed further.</p>\n<p>Doesn't that make you wonder what's actually behind all that? Would you like to know how this all works and how we'll end up having all of our jobs stolen by soulless machines?</p>\n<p>Sure, but you've heard that this implies tons of matrix calculus, algebra that doesn't always seem to be that linear, partial derivatives and, come on, if we chose programming rather than pursuing a PhD in Mathematics, we knew what we were doin'!</p>\n<p>Okay, give me 3 hours and I will tell you, in very simple words, without any prior knowledge required, step by step baby, how neural networks work in real life, how we get them to learn very useful tricks such as how to differentiate (pun intended) cats from dogs or recognize traffic signs in real time, and how we use these networks in practice.</p>\n<p>And we'll see that, thanks to libraries such as TensorFlow or Keras, a few lines of code are enough to do wonders…</p>\n<p>Ready?</p>\n",
+        "id": "PXQ-6368",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/7809a48d936be76c784289605b00cecc051463eb",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Yannis Bres",
+              "uuid": "7809a48d936be76c784289605b00cecc051463eb"
+            },
+            "name": "Yannis Bres"
+          }
+        ],
+        "title": "From 0 to Deep Learning in 3 hours",
+        "lang": "en",
+        "summary": "Neural Networks, Deep Learning: there's not a week without a thunderous announcement claiming that Artificial Intelligence limits are once again pushed further.\r\n\r\nDoesn't that make you wonder what's actually behind all that? Would you like to know how this all works and how we'll end up having all of our jobs stolen by soulless machines?\r\n\r\nSure, but you've heard that this implies tons of matrix calculus, algebra that doesn't always seem to be that linear, partial derivatives and, come on, if we chose programming rather than pursuing a PhD in Mathematics, we knew what we were doin'!\r\n\r\nOkay, give me 3 hours and I will tell you, in very simple words, without any prior knowledge required, step by step baby, how neural networks work in real life, how we get them to learn very useful tricks such as how to differentiate (pun intended) cats from dogs or recognize traffic signs in real time, and how we use these networks in practice.\r\n\r\nAnd we'll see that, thanks to libraries such as TensorFlow or Keras, a few lines of code are enough to do wonders…\r\n\r\nReady?"
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542123000000,
+      "toTime": "16:30",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "uni_Room6_tuesday_13_13h30_16h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542112200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Architecture & Security",
+        "talkType": "Deep Dive",
+        "track": "Architecture & Security",
+        "summaryAsHtml": "<p>Teams that have built monoliths for years are used to certain patterns of interaction between different parts of the code base. Simply replicating those patterns when splitting up a system into a distributed one usually introduces a lot of complexity and drawbacks that often totally subvert the desired effects of a split up of the system in the first place.</p>\n<p>The talk takes a look at a concrete sample of monolithic module interactions and identifies the problems that arise if that approach is transferred as-is into a distributed system. We then discuss an alternative variant of the monolithic implementation and how that approach improves the system's modularity for the monolith and how it minimizes the cost and problems when splitting up the monolith or even starting with a system of systems in the first place.</p>\n",
+        "id": "MTM-6628",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/7c3e49bf489644eeefdd3d85100b474c28c41086",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Oliver Gierke",
+              "uuid": "7c3e49bf489644eeefdd3d85100b474c28c41086"
+            },
+            "name": "Oliver Gierke"
+          }
+        ],
+        "title": "Refactoring to a System of Systems",
+        "lang": "en",
+        "summary": "Teams that have built monoliths for years are used to certain patterns of interaction between different parts of the code base. Simply replicating those patterns when splitting up a system into a distributed one usually introduces a lot of complexity and drawbacks that often totally subvert the desired effects of a split up of the system in the first place.\r\n\r\nThe talk takes a look at a concrete sample of monolithic module interactions and identifies the problems that arise if that approach is transferred as-is into a distributed system. We then discuss an alternative variant of the monolithic implementation and how that approach improves the system's modularity for the monolith and how it minimizes the cost and problems when splitting up the monolith or even starting with a system of systems in the first place."
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542123000000,
+      "toTime": "16:30",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "uni_Room8_tuesday_13_13h30_16h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542112200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Big Data & Machine Learning",
+        "talkType": "Deep Dive",
+        "track": "Big Data & Machine Learning",
+        "summaryAsHtml": "<p>Have you ever wondered how Youtube and Spotify recommends new videos and songs to you? Do you want to know what characterizes the music you listen to? Join us for this workshop where you create your own Spotify playlist based on your own music taste!</p>\n<p>In this workshop we will give you an introduction of various algorithms used for clustering and classifying data and introduce feature extraction and the Spotify API. Then we will use Spotify's API to gather metrics of songs in your playlists, and visualize the data found. Next on the menu are four assignments including finding similar playlists and recommending new songs for yourself.</p>\n<p>After this session you will have a greater knowledge of several machine learning algorithms for classifying and clustering data, while exploring your own music taste. You will learn how feature extraction influences the results in machine learning projects, and what you need to take into account when setting up your own projects!</p>\n",
+        "id": "NQB-4188",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/485043925eca47dd66470b801e45380eb5f816a5",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Joakim Lehn",
+              "uuid": "485043925eca47dd66470b801e45380eb5f816a5"
+            },
+            "name": "Joakim Lehn"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/ea52c775d6049c9d5e3e327dee8d647e20799a30",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Manu Gopinathan",
+              "uuid": "ea52c775d6049c9d5e3e327dee8d647e20799a30"
+            },
+            "name": "Manu Gopinathan"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/27d1a35d487d530572154257ce4e08de4d3cb870",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Malte Loller-Andersen",
+              "uuid": "27d1a35d487d530572154257ce4e08de4d3cb870"
+            },
+            "name": "Malte Loller-Andersen"
+          }
+        ],
+        "title": "Create Your Own Discover Weekly Playlist for Spotify Using Machine Learning",
+        "lang": "en",
+        "summary": "Have you ever wondered how Youtube and Spotify recommends new videos and songs to you? Do you want to know what characterizes the music you listen to? Join us for this workshop where you create your own Spotify playlist based on your own music taste!\r\n\r\nIn this workshop we will give you an introduction of various algorithms used for clustering and classifying data and introduce feature extraction and the Spotify API. Then we will use Spotify's API to gather metrics of songs in your playlists, and visualize the data found. Next on the menu are four assignments including finding similar playlists and recommending new songs for yourself.\r\n\r\nAfter this session you will have a greater knowledge of several machine learning algorithms for classifying and clustering data, while exploring your own music taste. You will learn how feature extraction influences the results in machine learning projects, and what you need to take into account when setting up your own projects!"
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542123000000,
+      "toTime": "16:30",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "uni_Room9_tuesday_13_13h30_16h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "BOF1",
+      "notAllocated": false,
+      "fromTimeMillis": 1542112200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "Hands-on Lab",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>Designed as a language that can solve hard problems, Rust released their 1.0 in 2015. Subsequently it was voted the Most Loved Language in 2016, 2017 and 2018 on the developer's survey of StackOverflow. Firefox Quantum made Firefox over twice as fast by rebuilding the core engine in Rust. It compiles to everything from WebAssembly to Arduino Nano. In this workshop you'll start to understand why Rust can promise thread safety without segfaults while keeping higher levels of abstraction and blazingly fast execution.</p>\n<h4>Topics covered</h4>\n<p>In this workshop we'll go from installing Rust to working with some Rust concepts. The idea is to inspire further experimentation and give an idea of what Rust can do for you.</p>\n<ul>\n<li>rustup &amp; cargo</li>\n<li>Rust compiler</li>\n<li>Struct</li>\n<li>Trait</li>\n<li>Option</li>\n<li>Result</li>\n</ul>\n<p>Be sure to bring your own laptop!</p>\n",
+        "id": "RYY-1356",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/43a8db41c5058ab3c67a26ee8055d8653ff31282",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Ruben Boumans",
+              "uuid": "43a8db41c5058ab3c67a26ee8055d8653ff31282"
+            },
+            "name": "Ruben Boumans"
+          }
+        ],
+        "title": "Meet Rust: The speed of C, the comforts of Kotlin",
+        "lang": "en",
+        "summary": "Designed as a language that can solve hard problems, Rust released their 1.0 in 2015. Subsequently it was voted the Most Loved Language in 2016, 2017 and 2018 on the developer's survey of StackOverflow. Firefox Quantum made Firefox over twice as fast by rebuilding the core engine in Rust. It compiles to everything from WebAssembly to Arduino Nano. In this workshop you'll start to understand why Rust can promise thread safety without segfaults while keeping higher levels of abstraction and blazingly fast execution.\r\n\r\n#### Topics covered\r\nIn this workshop we'll go from installing Rust to working with some Rust concepts. The idea is to inspire further experimentation and give an idea of what Rust can do for you.\r\n\r\n- rustup & cargo\r\n- Rust compiler\r\n- Struct\r\n- Trait\r\n- Option\r\n- Result\r\n\r\nBe sure to bring your own laptop!"
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542123000000,
+      "toTime": "16:30",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "lab_BOF1_tuesday_13_13h30_16h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "BOF2",
+      "notAllocated": false,
+      "fromTimeMillis": 1542112200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Hands-on Lab",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>Microservices are here to stay. When applied properly, microservices techniques and culture ultimately help us continuously improve business at a faster pace than traditional architecture.  However, microservices architecture itself can be complex to configure. All of a sudden, we are faced with the need for a service discovery server, how do we store service metadata, make decisions on whether to use client side load balancing or server side load balancing, deal with network resiliency, think how do we enforce service policies and audit, trace nested services calls.... The list goes on.</p>\n<p>Sure, it's easy to have a single stack that makes everything work provided there are good microservices support - but what if you have a polyglot environment? How would you make sure all of the stack can address the same concerns in a consistent way?  This is where a service mesh comes in.</p>\n<p>In this lab, we'll introduce Istio, an open source service mesh framework created by Google, IBM, and Lyft. deploy it into Kubernetes cluster, then deploy Spring Boot applications into the service mesh. Finally, we'll use Istio to manage, control &amp; monitor traffic.</p>\n",
+        "id": "UWC-9994",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/326f957b5bf291676606231592f9b91701075d89",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Ray Tsang",
+              "uuid": "326f957b5bf291676606231592f9b91701075d89"
+            },
+            "name": "Ray Tsang"
+          }
+        ],
+        "title": "Making Microservices Micro with Istio Service Mesh",
+        "lang": "en",
+        "summary": "Microservices are here to stay. When applied properly, microservices techniques and culture ultimately help us continuously improve business at a faster pace than traditional architecture.  However, microservices architecture itself can be complex to configure. All of a sudden, we are faced with the need for a service discovery server, how do we store service metadata, make decisions on whether to use client side load balancing or server side load balancing, deal with network resiliency, think how do we enforce service policies and audit, trace nested services calls.... The list goes on.\r\n\r\nSure, it's easy to have a single stack that makes everything work provided there are good microservices support - but what if you have a polyglot environment? How would you make sure all of the stack can address the same concerns in a consistent way?  This is where a service mesh comes in.\r\n\r\nIn this lab, we'll introduce Istio, an open source service mesh framework created by Google, IBM, and Lyft. deploy it into Kubernetes cluster, then deploy Spring Boot applications into the service mesh. Finally, we'll use Istio to manage, control & monitor traffic."
+      },
+      "fromTime": "13:30",
+      "toTimeMillis": 1542123000000,
+      "toTime": "16:30",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "lab_BOF2_tuesday_13_13h30_16h30",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542123000000,
+      "break": {
+        "id": "st.12",
+        "nameEN": "Coffee Break",
+        "nameFR": "Coffee Break",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "tuesday",
+        "startTime": 1542123000000,
+        "endTime": 1542123900000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "16:30",
+      "toTimeMillis": 1542123900000,
+      "toTime": "16:45",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.12",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542123900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Big Data & Machine Learning",
+        "talkType": "Tools-in-Action",
+        "track": "Big Data & Machine Learning",
+        "summaryAsHtml": "<p>Have you seen the latest updates for traditional RDBNS lately? It's insane. They are all catching up and won't be left out. While all NoSQL stores are proposing SQL, all RDMS are proposing top notch JSON support. And it does not stop there.</p>\n<p>Latest PostgreSQL version have added new scalability features like table partitioning, query parallelism, pub/sub framework, a new quorum system for data sync. They have also improved their window functions for better time series queryability.</p>\n<p>And as it happens, we are using some of these new functionalities at Clever Cloud. In this talk I will showcase some of them to try to convince you that PostgreSQL is the new NoSQL.</p>\n",
+        "id": "BLA-3308",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/f8caf20b7f6f226bf0637bc8e077d95161561439",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Quentin Adam",
+              "uuid": "f8caf20b7f6f226bf0637bc8e077d95161561439"
+            },
+            "name": "Quentin Adam"
+          }
+        ],
+        "title": "PostgreSQL is the new NoSQL",
+        "lang": "en",
+        "summary": "Have you seen the latest updates for traditional RDBNS lately? It's insane. They are all catching up and won't be left out. While all NoSQL stores are proposing SQL, all RDMS are proposing top notch JSON support. And it does not stop there. \r\n\r\nLatest PostgreSQL version have added new scalability features like table partitioning, query parallelism, pub/sub framework, a new quorum system for data sync. They have also improved their window functions for better time series queryability.\r\n\r\nAnd as it happens, we are using some of these new functionalities at Clever Cloud. In this talk I will showcase some of them to try to convince you that PostgreSQL is the new NoSQL."
+      },
+      "fromTime": "16:45",
+      "toTimeMillis": 1542125700000,
+      "toTime": "17:15",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "tia_Room4_tuesday_13_16h45_17h15",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542123900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Tools-in-Action",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>The release train of Java is now a fact: we can expect a new release every six month. This also implies there will be a moment you have to migrate from Java 8 to a newer version to keep up with the security patches. How does this effect your Maven projects?\nOne year after the release of Java 9 we've seen quite a lot of projects being able to move to a more recent version of Java. This session will guide you through the basics of such a migration.</p>\n",
+        "id": "PWQ-4888",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/d1054b975ea621acd5b3c5e38f35ba94a9cf720f",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Robert Scholte",
+              "uuid": "d1054b975ea621acd5b3c5e38f35ba94a9cf720f"
+            },
+            "name": "Robert Scholte"
+          }
+        ],
+        "title": "Keeping up with Java made easy with Apache Maven",
+        "lang": "en",
+        "summary": "The release train of Java is now a fact: we can expect a new release every six month. This also implies there will be a moment you have to migrate from Java 8 to a newer version to keep up with the security patches. How does this effect your Maven projects?\r\nOne year after the release of Java 9 we've seen quite a lot of projects being able to move to a more recent version of Java. This session will guide you through the basics of such a migration."
+      },
+      "fromTime": "16:45",
+      "toTimeMillis": 1542125700000,
+      "toTime": "17:15",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "tia_Room5_tuesday_13_16h45_17h15",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542123900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Architecture & Security",
+        "talkType": "Tools-in-Action",
+        "track": "Architecture & Security",
+        "summaryAsHtml": "<p>Tools are not all you need to take on a new methodolgy such as DevOps or DevSecOps. Team Culture and process changes at the core of the organization are required as well as tooling that supports and automates boring but important tasks, while fitting in with the development pipeline. We'll use at how the free Snyk edition can integrate throughout the development lifecycle, testing for known vulnerabilities in the Open Source Snyk database.</p>\n",
+        "id": "TXS-3593",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/c4a9f157fcf0e4f29df2d01d1b49fd24e12a0714",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Simon Maple",
+              "uuid": "c4a9f157fcf0e4f29df2d01d1b49fd24e12a0714"
+            },
+            "name": "Simon Maple"
+          }
+        ],
+        "title": "Switching on DevSecOps",
+        "lang": "en",
+        "summary": "Tools are not all you need to take on a new methodolgy such as DevOps or DevSecOps. Team Culture and process changes at the core of the organization are required as well as tooling that supports and automates boring but important tasks, while fitting in with the development pipeline. We'll use at how the free Snyk edition can integrate throughout the development lifecycle, testing for known vulnerabilities in the Open Source Snyk database."
+      },
+      "fromTime": "16:45",
+      "toTimeMillis": 1542125700000,
+      "toTime": "17:15",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "tia_Room6_tuesday_13_16h45_17h15",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542123900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Tools-in-Action",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>Spring Boot is awesome. Docker is awesome. Together you can do great things. But, are you doing it the right way? We'll walk you through, in detail, the optimal way to structure Docker images for Spring Boot applications for iterative development. Structuring your Docker images correctly is really important for teams doing continuous integration and continuous delivery. Using Docker best practices, we'll show you the code and the technologies used to optimize Docker images for Spring Boot apps!</p>\n",
+        "id": "LJT-6211",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/8107d6242333f09d50f5cabe954fa611c2215c31",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Mike Thompson",
+              "uuid": "8107d6242333f09d50f5cabe954fa611c2215c31"
+            },
+            "name": "Mike Thompson"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/ac63ccacfadd16102fe70327a20e2faa6933bca6",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Graham Charters",
+              "uuid": "ac63ccacfadd16102fe70327a20e2faa6933bca6"
+            },
+            "name": "Graham Charters"
+          }
+        ],
+        "title": "Optimizing Spring Boot apps for Docker",
+        "lang": "en",
+        "summary": "Spring Boot is awesome. Docker is awesome. Together you can do great things. But, are you doing it the right way? We'll walk you through, in detail, the optimal way to structure Docker images for Spring Boot applications for iterative development. Structuring your Docker images correctly is really important for teams doing continuous integration and continuous delivery. Using Docker best practices, we'll show you the code and the technologies used to optimize Docker images for Spring Boot apps!\r\n"
+      },
+      "fromTime": "16:45",
+      "toTimeMillis": 1542125700000,
+      "toTime": "17:15",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "tia_Room8_tuesday_13_16h45_17h15",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542123900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Tools-in-Action",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>Suppose all of your docker images have a security vulnerability, now how do you force a rebuild of these images? How do you deploy the new images without breaking things? In this talk, you’ll learn how to push and audit cascading security updates to hundreds of docker images. All of the tooling we will use is open source so you can easily take advantage of it.You will also learn how to integrate the cascading updates into your CI/CD system which enables performing a verified cascade in the correct order.</p>\n",
+        "id": "XKV-0635",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/627b7409dd42d9c3e3ef9fa4a2cd846ee7511693",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Andrey Falko",
+              "uuid": "627b7409dd42d9c3e3ef9fa4a2cd846ee7511693"
+            },
+            "name": "Andrey Falko"
+          }
+        ],
+        "title": "Auto-Cascading Security Updates Through Docker Images",
+        "lang": "en",
+        "summary": "Suppose all of your docker images have a security vulnerability, now how do you force a rebuild of these images? How do you deploy the new images without breaking things? In this talk, you’ll learn how to push and audit cascading security updates to hundreds of docker images. All of the tooling we will use is open source so you can easily take advantage of it.You will also learn how to integrate the cascading updates into your CI/CD system which enables performing a verified cascade in the correct order."
+      },
+      "fromTime": "16:45",
+      "toTimeMillis": 1542125700000,
+      "toTime": "17:15",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "tia_Room9_tuesday_13_16h45_17h15",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542125700000,
+      "break": {
+        "id": "st.17",
+        "nameEN": "Break",
+        "nameFR": "Break",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "tuesday",
+        "startTime": 1542125700000,
+        "endTime": 1542126600000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "17:15",
+      "toTimeMillis": 1542126600000,
+      "toTime": "17:30",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.17",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542126600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Methodology & Culture",
+        "talkType": "Tools-in-Action",
+        "track": "Methodology & Culture",
+        "summaryAsHtml": "<p>So you’ve deployed your artifacts to a serverless runtime. But how much control have you actually given up? Can you monitor the user experience of your app? Can you still profile your app? Did you even discuss SLI/SLO/SLA in the first place?</p>\n<p>DevOps isn’t going away with serverless, it’s actually becoming even more important with CI/CD and blue/green deployments remaining key best practices.</p>\n<p>In this session we’ll discuss the importance of proper DevOps principles (SRE at Google) and demonstrate Application Performance Monitoring (APM) tooling for serverless development.</p>\n",
+        "id": "JJC-9386",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/44637da87c19cc989783b834193f940a7db2f366",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Alexis Moussine-Pouchkine",
+              "uuid": "44637da87c19cc989783b834193f940a7db2f366"
+            },
+            "name": "Alexis Moussine-Pouchkine"
+          }
+        ],
+        "title": "DevOps in a serverless world - best practices and tools",
+        "lang": "en",
+        "summary": "So you’ve deployed your artifacts to a serverless runtime. But how much control have you actually given up? Can you monitor the user experience of your app? Can you still profile your app? Did you even discuss SLI/SLO/SLA in the first place?\r\n\r\nDevOps isn’t going away with serverless, it’s actually becoming even more important with CI/CD and blue/green deployments remaining key best practices.\r\n\r\nIn this session we’ll discuss the importance of proper DevOps principles (SRE at Google) and demonstrate Application Performance Monitoring (APM) tooling for serverless development."
+      },
+      "fromTime": "17:30",
+      "toTimeMillis": 1542128400000,
+      "toTime": "18:00",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "tia_Room4_tuesday_13_17h30_18h0",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542126600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Tools-in-Action",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>Oracle Java Mission Control with Java Flight Recorder is a tool to continuously collect low level and detailed runtime information directly from JVM. JMC delivers advanced unobtrusive Java monitoring and management, suitable for use both in development and production environments. This presentation gives an introduction to main components in the toolchain, how to use JMC and JFR to monitor, manage, profile and diagnose your applications with given and your custom build functionalities. Main focus of this presentation will be new features that came with version 6.0 (first one for Java 9) as well as what came new for Java 10 and Java 11.</p>\n",
+        "id": "QXC-3597",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/c36efd6e34dbfa7e4af7869ec4132248215cb717",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Adnan Isajbegovic",
+              "uuid": "c36efd6e34dbfa7e4af7869ec4132248215cb717"
+            },
+            "name": "Adnan Isajbegovic"
+          }
+        ],
+        "title": "Java Mission Control 6.0+",
+        "lang": "en",
+        "summary": "Oracle Java Mission Control with Java Flight Recorder is a tool to continuously collect low level and detailed runtime information directly from JVM. JMC delivers advanced unobtrusive Java monitoring and management, suitable for use both in development and production environments. This presentation gives an introduction to main components in the toolchain, how to use JMC and JFR to monitor, manage, profile and diagnose your applications with given and your custom build functionalities. Main focus of this presentation will be new features that came with version 6.0 (first one for Java 9) as well as what came new for Java 10 and Java 11."
+      },
+      "fromTime": "17:30",
+      "toTimeMillis": 1542128400000,
+      "toTime": "18:00",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "tia_Room5_tuesday_13_17h30_18h0",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542126600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Modern Web & UX",
+        "talkType": "Tools-in-Action",
+        "track": "Modern Web & UX",
+        "summaryAsHtml": "<p>Microservices are so hype they have their own Voxxed event, and perhaps you’ve already fall for them and replace your good old monolith for new shiny microservices on the back-end.</p>\n<p>But have you ever consider doing the same on the front-end? Even hype-r (or crazy-er, I let you judge), have you tried mixing different JavaScript frameworks (let’s say AngularJS, Angular and React for example) in a Single Page Application?</p>\n<p>That’s what Micro Frontend is and that’s what we’ve done this year at Saagie. In this talk I’d like to give you a feedback on the different architectures we’ve tried, their pros and cons and help you find which one would be the best for you, just in case you’d like to opt for the dark and crazy side of front-end.</p>\n",
+        "id": "HLB-1428",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/8af78fa5cf9450329a3ecbceb4038823681de4a7",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Audrey Neveu",
+              "uuid": "8af78fa5cf9450329a3ecbceb4038823681de4a7"
+            },
+            "name": "Audrey Neveu"
+          }
+        ],
+        "title": "Micro Frontend: the microservice puzzle extended to frontend.",
+        "lang": "en",
+        "summary": "Microservices are so hype they have their own Voxxed event, and perhaps you’ve already fall for them and replace your good old monolith for new shiny microservices on the back-end. \r\n\r\nBut have you ever consider doing the same on the front-end? Even hype-r (or crazy-er, I let you judge), have you tried mixing different JavaScript frameworks (let’s say AngularJS, Angular and React for example) in a Single Page Application? \r\n\r\nThat’s what Micro Frontend is and that’s what we’ve done this year at Saagie. In this talk I’d like to give you a feedback on the different architectures we’ve tried, their pros and cons and help you find which one would be the best for you, just in case you’d like to opt for the dark and crazy side of front-end."
+      },
+      "fromTime": "17:30",
+      "toTimeMillis": 1542128400000,
+      "toTime": "18:00",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "tia_Room6_tuesday_13_17h30_18h0",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542126600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Tools-in-Action",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>Have you ever thought that you needed to be a programmer to do stream processing and build streaming data pipelines? Think again! Apache Kafka is a distributed, scalable, and fault-tolerant streaming platform, providing low-latency pub-sub messaging coupled with native storage and stream processing capabilities. Integrating Kafka with RDBMS, NoSQL, and object stores is simple with Kafka Connect, which is part of Apache Kafka. KSQL is the open-source SQL streaming engine for Apache Kafka, and makes it possible to build stream processing applications at scale, written using a familiar SQL interface.</p>\n<p>In this talk we’ll explain the architectural reasoning for Apache Kafka and the benefits of real-time integration, and we’ll build a streaming data pipeline using nothing but our bare hands, Kafka Connect, and KSQL.</p>\n<p>Gasp as we filter events in real time! Be amazed at how we can enrich streams of data with data from RDBMS! Be astonished at the power of streaming aggregates for anomaly detection!</p>\n",
+        "id": "BVD-3316",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/813877751b36813246ddf5336298adb8047ead5d",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Robin Moffatt",
+              "uuid": "813877751b36813246ddf5336298adb8047ead5d"
+            },
+            "name": "Robin Moffatt"
+          }
+        ],
+        "title": "Apache Kafka and KSQL in Action : Let’s Build a Streaming Data Pipeline!",
+        "lang": "en",
+        "summary": "Have you ever thought that you needed to be a programmer to do stream processing and build streaming data pipelines? Think again! Apache Kafka is a distributed, scalable, and fault-tolerant streaming platform, providing low-latency pub-sub messaging coupled with native storage and stream processing capabilities. Integrating Kafka with RDBMS, NoSQL, and object stores is simple with Kafka Connect, which is part of Apache Kafka. KSQL is the open-source SQL streaming engine for Apache Kafka, and makes it possible to build stream processing applications at scale, written using a familiar SQL interface.\r\n\r\nIn this talk we’ll explain the architectural reasoning for Apache Kafka and the benefits of real-time integration, and we’ll build a streaming data pipeline using nothing but our bare hands, Kafka Connect, and KSQL.\r\n\r\nGasp as we filter events in real time! Be amazed at how we can enrich streams of data with data from RDBMS! Be astonished at the power of streaming aggregates for anomaly detection!"
+      },
+      "fromTime": "17:30",
+      "toTimeMillis": 1542128400000,
+      "toTime": "18:00",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "tia_Room8_tuesday_13_17h30_18h0",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542126600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Mobile & IoT",
+        "talkType": "Tools-in-Action",
+        "track": "Mobile & IoT",
+        "summaryAsHtml": "<p>Are you a hardware guru looking to build your connected device but not sure how to integrate them to Smart Home apis, or a code geek looking to integrate your software to existing hardware and smart home apis or you know nothing but still want to build an app running on Google Home.\nThis talk will cover all the APIs, live coding, all the tools to help your development and troubleshooting, as well as all the different ways to interact and integrate with Google Assistant!</p>\n",
+        "id": "MJD-6193",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/6411091b413cbe292a892a0527f4d9086d421857",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Murat Yener",
+              "uuid": "6411091b413cbe292a892a0527f4d9086d421857"
+            },
+            "name": "Murat Yener"
+          }
+        ],
+        "title": "Home s̶w̶e̶e̶t̶ Google Home: Build a smart(er) home!",
+        "lang": "en",
+        "summary": "Are you a hardware guru looking to build your connected device but not sure how to integrate them to Smart Home apis, or a code geek looking to integrate your software to existing hardware and smart home apis or you know nothing but still want to build an app running on Google Home.\r\nThis talk will cover all the APIs, live coding, all the tools to help your development and troubleshooting, as well as all the different ways to interact and integrate with Google Assistant! "
+      },
+      "fromTime": "17:30",
+      "toTimeMillis": 1542128400000,
+      "toTime": "18:00",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "tia_Room9_tuesday_13_17h30_18h0",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542128400000,
+      "break": {
+        "id": "st.17",
+        "nameEN": "Break",
+        "nameFR": "Break",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "tuesday",
+        "startTime": 1542128400000,
+        "endTime": 1542129300000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "18:00",
+      "toTimeMillis": 1542129300000,
+      "toTime": "18:15",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.17",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542129300000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Big Data & Machine Learning",
+        "talkType": "Tools-in-Action",
+        "track": "Big Data & Machine Learning",
+        "summaryAsHtml": "<p>The artificial vision spectrum ranges from fully automated generic Image Content Analysis (just give a picture and get answers, no configuration needed!) to fine-tuned neural network frameworks.</p>\n<p>In-between, AutoML techniques let you build high-accuracy prediction systems focused on your use case, discovering and learning the topology of your data of interest, without writing any line of code at all. For image classification, this typically involves providing hundreds of known photos to a platform to train a model, and then use this model to infer characteristics of new pictures. Supervised learning at its simplest: just show labeled samples, and you get a model.</p>\n<p>I will demo several recent tools that help build a model from a collection of pictures and a list of labels, and compare the quality of the results. Each may have its own answer to this fundamental question: Is it easier to detect Wallace or to detect Gromit?</p>\n",
+        "id": "ZCZ-7641",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/d2fd0a69f8cbf47c3c05f33fc93ca59b4df47dc0",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Valentin Deleplace",
+              "uuid": "d2fd0a69f8cbf47c3c05f33fc93ca59b4df47dc0"
+            },
+            "name": "Valentin Deleplace"
+          }
+        ],
+        "title": "Computer vision: British clay",
+        "lang": "en",
+        "summary": "The artificial vision spectrum ranges from fully automated generic Image Content Analysis (just give a picture and get answers, no configuration needed!) to fine-tuned neural network frameworks.\r\n\r\nIn-between, AutoML techniques let you build high-accuracy prediction systems focused on your use case, discovering and learning the topology of your data of interest, without writing any line of code at all. For image classification, this typically involves providing hundreds of known photos to a platform to train a model, and then use this model to infer characteristics of new pictures. Supervised learning at its simplest: just show labeled samples, and you get a model.\r\n\r\nI will demo several recent tools that help build a model from a collection of pictures and a list of labels, and compare the quality of the results. Each may have its own answer to this fundamental question: Is it easier to detect Wallace or to detect Gromit?"
+      },
+      "fromTime": "18:15",
+      "toTimeMillis": 1542131100000,
+      "toTime": "18:45",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "tia_Room4_tuesday_13_18h15_18h45",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542129300000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Modern Web & UX",
+        "talkType": "Tools-in-Action",
+        "track": "Modern Web & UX",
+        "summaryAsHtml": "<p>Want to give your users a great mobile app, but you can’t hire developers for 3 platforms? Or you have a native app, but can’t seem to  convince enough of your userbase to install your app? With the latest web platform features, the web is becoming a realistic alternative to native apps. A Progressive Web App lives on the homescreen, works offline and can access most of the device’s capabilities.</p>\n<p>This live coding session demonstrates that building a Progressive Web App does not have to take much time. Dealing with service workers, offline browsing and cache invalidation might seem intimidating at first, but with right tooling, you can get a first iteration released in a day. Next iterations can provide more functionality.</p>\n",
+        "id": "XXT-8012",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/774d0f25362836375298c3a64a95f79195b203b7",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Ruben Oostinga",
+              "uuid": "774d0f25362836375298c3a64a95f79195b203b7"
+            },
+            "name": "Ruben Oostinga"
+          }
+        ],
+        "title": "Turn your site into a Progressive Web App in a day",
+        "lang": "en",
+        "summary": "Want to give your users a great mobile app, but you can’t hire developers for 3 platforms? Or you have a native app, but can’t seem to  convince enough of your userbase to install your app? With the latest web platform features, the web is becoming a realistic alternative to native apps. A Progressive Web App lives on the homescreen, works offline and can access most of the device’s capabilities.\r\n\r\nThis live coding session demonstrates that building a Progressive Web App does not have to take much time. Dealing with service workers, offline browsing and cache invalidation might seem intimidating at first, but with right tooling, you can get a first iteration released in a day. Next iterations can provide more functionality."
+      },
+      "fromTime": "18:15",
+      "toTimeMillis": 1542131100000,
+      "toTime": "18:45",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "tia_Room5_tuesday_13_18h15_18h45",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542129300000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Tools-in-Action",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>At its core, Helm was built to help with two things.</p>\n<p>First, Helm wants to make it simple to share information about running apps and services inside of Kubernetes. When the community all share our charts, the Kubernetes community at large learns how best to work with Kubernetes. We share information and discover great ways of doing things. And we also make it easier for newcomers to get going. Helm is about growing Kubernetes.</p>\n<p>Second, Helm wants to make it easier for teams to manage their Kubernetes manifest files. The Helm community created a tool that eases the process of collaborating on and keeping track of your team's charts. Start with widely available charts, customize them to your team's needs, and then store them in your own version control. Helm is about helping teams.</p>\n<p>Kubernetes is a powerful platform. Helm was built to make it easy to manage the apps and services you deploy.</p>\n<p>In this session, we'll explore the history of Helm, how Helm is used today, share useful tips and tricks the community has developed, and how to get involved in the Helm community. We'll also share some of the worst puns the Helm community has to offer.</p>\n",
+        "id": "JHG-7125",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/d235d137d2dae3e5ff511bc1b4d1fce34af0f8a7",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Matthew Fisher",
+              "uuid": "d235d137d2dae3e5ff511bc1b4d1fce34af0f8a7"
+            },
+            "name": "Matthew Fisher"
+          }
+        ],
+        "title": "Helm Yeah! - An Introduction to Helm",
+        "lang": "en",
+        "summary": "At its core, Helm was built to help with two things.\r\n\r\nFirst, Helm wants to make it simple to share information about running apps and services inside of Kubernetes. When the community all share our charts, the Kubernetes community at large learns how best to work with Kubernetes. We share information and discover great ways of doing things. And we also make it easier for newcomers to get going. Helm is about growing Kubernetes.\r\n\r\nSecond, Helm wants to make it easier for teams to manage their Kubernetes manifest files. The Helm community created a tool that eases the process of collaborating on and keeping track of your team's charts. Start with widely available charts, customize them to your team's needs, and then store them in your own version control. Helm is about helping teams.\r\n\r\nKubernetes is a powerful platform. Helm was built to make it easy to manage the apps and services you deploy.\r\n\r\nIn this session, we'll explore the history of Helm, how Helm is used today, share useful tips and tricks the community has developed, and how to get involved in the Helm community. We'll also share some of the worst puns the Helm community has to offer."
+      },
+      "fromTime": "18:15",
+      "toTimeMillis": 1542131100000,
+      "toTime": "18:45",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "tia_Room6_tuesday_13_18h15_18h45",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542129300000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Architecture & Security",
+        "talkType": "Tools-in-Action",
+        "track": "Architecture & Security",
+        "summaryAsHtml": "<p>44% of applications contain critical vulnerabilities in an open source component*\nand this although good practices like OWASP Top 10 have become widespread.</p>\n<p>Do not let these vulnerabilities incubate warm in the belly of your app! With this talk you'll learn how those vulnerabilities are indexed  (NVD, CVE) and how their severity is scored (CVSS).</p>\n<p>You'll see how to create your first Continuous Security pipeline using Jenkins and OWASP DependencyCheck which detects vulnerabilities and track them using OWASP DependencyTrack (open-source softwares)</p>\n<p>Do you first step in the DevSecOps philosophy !!!</p>\n<p>*https://www.veracode.com/products/software-composition-analysis</p>\n",
+        "id": "FSN-9751",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/f325eea5554d5773dbcb919b9e59b551571910be",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Julien Topçu",
+              "uuid": "f325eea5554d5773dbcb919b9e59b551571910be"
+            },
+            "name": "Julien Topçu"
+          }
+        ],
+        "title": "Find and Track the hidden vulnerabilities inside your dependencies",
+        "lang": "en",
+        "summary": "44% of applications contain critical vulnerabilities in an open source component* \r\nand this although good practices like OWASP Top 10 have become widespread.\r\n\r\n\r\n\r\nDo not let these vulnerabilities incubate warm in the belly of your app! With this talk you'll learn how those vulnerabilities are indexed  (NVD, CVE) and how their severity is scored (CVSS).\r\n\r\nYou'll see how to create your first Continuous Security pipeline using Jenkins and OWASP DependencyCheck which detects vulnerabilities and track them using OWASP DependencyTrack (open-source softwares)\r\n\r\nDo you first step in the DevSecOps philosophy !!!\r\n\r\n*https://www.veracode.com/products/software-composition-analysis"
+      },
+      "fromTime": "18:15",
+      "toTimeMillis": 1542131100000,
+      "toTime": "18:45",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "tia_Room8_tuesday_13_18h15_18h45",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542129300000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Mobile & IoT",
+        "talkType": "Tools-in-Action",
+        "track": "Mobile & IoT",
+        "summaryAsHtml": "<p>This is a breakdown of how the open source VoxxedDays app works: networking, local storage, and UI. It touches on which parts of the app were straightforward to build with Flutter, which aspects presented challenges, and the rationale for important design decisions such as which state management approach to take and how to handle deserialization of data from the VoxxedDays API.</p>\n",
+        "id": "IJL-5930",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/68b1cd23753859fa55674518f39c85ed44b75174",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Matt Sullivan",
+              "uuid": "68b1cd23753859fa55674518f39c85ed44b75174"
+            },
+            "name": "Matt Sullivan"
+          }
+        ],
+        "title": "Building the VoxxedDays App with Flutter ",
+        "lang": "en",
+        "summary": "This is a breakdown of how the open source VoxxedDays app works: networking, local storage, and UI. It touches on which parts of the app were straightforward to build with Flutter, which aspects presented challenges, and the rationale for important design decisions such as which state management approach to take and how to handle deserialization of data from the VoxxedDays API."
+      },
+      "fromTime": "18:15",
+      "toTimeMillis": 1542131100000,
+      "toTime": "18:45",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "tia_Room9_tuesday_13_18h15_18h45",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542131100000,
+      "break": {
+        "id": "st.17",
+        "nameEN": "Break",
+        "nameFR": "Break",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "tuesday",
+        "startTime": 1542131100000,
+        "endTime": 1542132000000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "18:45",
+      "toTimeMillis": 1542132000000,
+      "toTime": "19:00",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.17",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "BOF1",
+      "notAllocated": false,
+      "fromTimeMillis": 1542132000000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Architecture & Security",
+        "talkType": "BOF",
+        "track": "Architecture & Security",
+        "summaryAsHtml": "<p>People often say documentation is boring. But not us!</p>\n<p>Let's talk about documentation. How do you write it? How do you publish it? What tools do you use? What are the current trends? How do you encourage other people to participate? How can we make documentation more approachable?</p>\n<p>Let’s share ways to improve our documentation and to encourage others to love, appreciate, and value documentation as much as we do.</p>\n",
+        "id": "QDR-7433",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/8551616e8ea37d9a0c962b022afc9f6b377790f6",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Dan Allen",
+              "uuid": "8551616e8ea37d9a0c962b022afc9f6b377790f6"
+            },
+            "name": "Dan Allen"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/0d7fffaa94fefcf89147e425b41ad75c3dad4738",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Alex Soto",
+              "uuid": "0d7fffaa94fefcf89147e425b41ad75c3dad4738"
+            },
+            "name": "Alex Soto"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/718137d78eb52f6d38f3cbedc350fea9ae2a55e4",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Andres Almiray",
+              "uuid": "718137d78eb52f6d38f3cbedc350fea9ae2a55e4"
+            },
+            "name": "Andres Almiray"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/8a840a35dc6946fe9d5eaf0c0910a53afadaf981",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Hubert SABLONNIÈRE",
+              "uuid": "8a840a35dc6946fe9d5eaf0c0910a53afadaf981"
+            },
+            "name": "Hubert SABLONNIÈRE"
+          }
+        ],
+        "title": "Writers Write! The Documentation BOF",
+        "lang": "en",
+        "summary": "People often say documentation is boring. But not us!\r\n\r\nLet's talk about documentation. How do you write it? How do you publish it? What tools do you use? What are the current trends? How do you encourage other people to participate? How can we make documentation more approachable?\r\n\r\nLet’s share ways to improve our documentation and to encourage others to love, appreciate, and value documentation as much as we do."
+      },
+      "fromTime": "19:00",
+      "toTimeMillis": 1542135600000,
+      "toTime": "20:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "bof_BOF1_tuesday_13_19h0_20h0",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "BOF2",
+      "notAllocated": false,
+      "fromTimeMillis": 1542132000000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Methodology & Culture",
+        "talkType": "BOF",
+        "track": "Methodology & Culture",
+        "summaryAsHtml": "<p>Technology has had a bumpy year.</p>\n<p>In recent times, a sudden explosion of unethical technology seems to have hit the headlines. We are seeing questionable tech affect real lives.</p>\n<p>How can we prevent unethical technology being made and put into the public realm? It’s a tough question, but something we need to face now.</p>\n<p>While there is no easy solution, I’ll demonstrate my methodology for preventing the growth of unethical software.</p>\n<p>From using the gift of technology to create great services for all people, to encouraging diversity in our development teams, everyone can make an impact for good. All contributions to ethical tech build up to create local networks of careers, eventually funnelling into a global community to tackle large-scale problems.</p>\n<p>By ensuring a people-first approach to making technology, it can not only prevent harm but actually benefit humanity. The world looks towards technology as a way to enhance our lives. For us to continue in this trend, we must focus on accessible and widely available ethical tech.</p>\n<p>Together, we can all help in the fight against guns-for-hire software developers.</p>\n",
+        "id": "DIP-6064",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/5bb99432b2e4918ae33e5d01af1bbbb755b407d4",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Sam Warner",
+              "uuid": "5bb99432b2e4918ae33e5d01af1bbbb755b407d4"
+            },
+            "name": "Sam Warner"
+          }
+        ],
+        "title": "Morality and Ethics - Caring is Everything",
+        "lang": "en",
+        "summary": "Technology has had a bumpy year.\r\n\r\nIn recent times, a sudden explosion of unethical technology seems to have hit the headlines. We are seeing questionable tech affect real lives.\r\n\r\nHow can we prevent unethical technology being made and put into the public realm? It’s a tough question, but something we need to face now.\r\n\r\nWhile there is no easy solution, I’ll demonstrate my methodology for preventing the growth of unethical software.\r\n\r\nFrom using the gift of technology to create great services for all people, to encouraging diversity in our development teams, everyone can make an impact for good. All contributions to ethical tech build up to create local networks of careers, eventually funnelling into a global community to tackle large-scale problems.\r\n\r\nBy ensuring a people-first approach to making technology, it can not only prevent harm but actually benefit humanity. The world looks towards technology as a way to enhance our lives. For us to continue in this trend, we must focus on accessible and widely available ethical tech.\r\n\r\nTogether, we can all help in the fight against guns-for-hire software developers."
+      },
+      "fromTime": "19:00",
+      "toTimeMillis": 1542135600000,
+      "toTime": "20:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "bof_BOF2_tuesday_13_19h0_20h0",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "BOF1",
+      "notAllocated": false,
+      "fromTimeMillis": 1542135600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "BOF",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>Get the chance to meet the developers working on Apache Maven in person. Share your ideas, get proper answers to your questions and learn more about Maven. Discover unknown features or hear about the planned improvements for future releases of Maven.</p>\n",
+        "id": "EVC-1727",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/d1054b975ea621acd5b3c5e38f35ba94a9cf720f",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Robert Scholte",
+              "uuid": "d1054b975ea621acd5b3c5e38f35ba94a9cf720f"
+            },
+            "name": "Robert Scholte"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/d3ff621339c1c31cf3c02c9cf0dd313ee1d66ff4",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Karl Heinz Marbaise",
+              "uuid": "d3ff621339c1c31cf3c02c9cf0dd313ee1d66ff4"
+            },
+            "name": "Karl Heinz Marbaise"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/dbf4782a4a5e5d73f7ee907a83afeb4f67b49453",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Hervé Boutemy",
+              "uuid": "dbf4782a4a5e5d73f7ee907a83afeb4f67b49453"
+            },
+            "name": "Hervé Boutemy"
+          }
+        ],
+        "title": "Apache Maven BOF",
+        "lang": "en",
+        "summary": "Get the chance to meet the developers working on Apache Maven in person. Share your ideas, get proper answers to your questions and learn more about Maven. Discover unknown features or hear about the planned improvements for future releases of Maven."
+      },
+      "fromTime": "20:00",
+      "toTimeMillis": 1542139200000,
+      "toTime": "21:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "bof_BOF1_tuesday_13_20h0_21h0",
+      "day": "tuesday"
+    },
+    {
+      "roomId": "BOF2",
+      "notAllocated": false,
+      "fromTimeMillis": 1542135600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Big Data & Machine Learning",
+        "talkType": "BOF",
+        "track": "Big Data & Machine Learning",
+        "summaryAsHtml": "<p>Building Face detection &amp; recognition in every day applications are becoming more and more accessible to any developer. In this session we will discuss how Google Vision API, existing face recognition models and Tensorflow-Keras can be used together to group the pictures of the speakers in the Devoxx Flickr albums.</p>\n<p>As a last year student in Applied Informatics, Lien will focus on the usability and application of existing frameworks to build a production-ready solution in the Cloud. Alex will explain the role of a mentor in order to complete a project successfully.</p>\n<p>Jan Kees will discuss how he used the API to visualize this on the website.</p>\n",
+        "id": "LHF-2794",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/c8faf5b098667f2f6e685ac09f87b9dac1a00214",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Lien Wuyts",
+              "uuid": "c8faf5b098667f2f6e685ac09f87b9dac1a00214"
+            },
+            "name": "Lien Wuyts"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/474eaa09ec5e38ee9c71d1f4a5c73051cdaf7b02",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Jan-Kees van Andel",
+              "uuid": "474eaa09ec5e38ee9c71d1f4a5c73051cdaf7b02"
+            },
+            "name": "Jan-Kees van Andel"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/7a1ed3166072356dde9cbb5453540f0d02059921",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Alex Van Boxel",
+              "uuid": "7a1ed3166072356dde9cbb5453540f0d02059921"
+            },
+            "name": "Alex Van Boxel"
+          }
+        ],
+        "title": "Grouping the Devoxx/Voxxed speaker via Machine Learning, a students tale",
+        "lang": "en",
+        "summary": "Building Face detection & recognition in every day applications are becoming more and more accessible to any developer. In this session we will discuss how Google Vision API, existing face recognition models and Tensorflow-Keras can be used together to group the pictures of the speakers in the Devoxx Flickr albums. \r\n\r\nAs a last year student in Applied Informatics, Lien will focus on the usability and application of existing frameworks to build a production-ready solution in the Cloud. Alex will explain the role of a mentor in order to complete a project successfully.\r\n\r\nJan Kees will discuss how he used the API to visualize this on the website."
+      },
+      "fromTime": "20:00",
+      "toTimeMillis": 1542139200000,
+      "toTime": "21:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "bof_BOF2_tuesday_13_20h0_21h0",
+      "day": "tuesday"
+    }
+  ]
+}

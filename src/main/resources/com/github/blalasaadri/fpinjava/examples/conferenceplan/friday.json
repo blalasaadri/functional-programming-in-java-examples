@@ -1,0 +1,723 @@
+{
+  "slots": [
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542353400000,
+      "break": {
+        "id": "st.11",
+        "nameEN": "Breakfast",
+        "nameFR": "Breakfast",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "friday",
+        "startTime": 1542353400000,
+        "endTime": 1542357000000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "08:30",
+      "toTimeMillis": 1542357000000,
+      "toTime": "09:30",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.11",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542357000000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Modern Web & UX",
+        "talkType": "Conference",
+        "track": "Modern Web & UX",
+        "summaryAsHtml": "<p>A typical interaction with a device or interface involves touching it. Either you're pressing buttons on a controller, swiping on a touchscreen or clicking on your laptop's trackpad. But what if you could control things without the use of your hands? What if you could use... your thoughts?</p>\n<p>I have been tinkering with a brain sensor and developed an open source JavaScript framework for it to allow me (or anyone else) to control interfaces or robots using facial expressions and mental commands.</p>\n",
+        "id": "KRD-3778",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/310c22bc883bdb4e264531c4863345d37ef5eaea",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Charlie Gerard",
+              "uuid": "310c22bc883bdb4e264531c4863345d37ef5eaea"
+            },
+            "name": "Charlie Gerard"
+          }
+        ],
+        "title": "Mind control in JavaScript and experimenting with evolving interactions",
+        "lang": "en",
+        "summary": "A typical interaction with a device or interface involves touching it. Either you're pressing buttons on a controller, swiping on a touchscreen or clicking on your laptop's trackpad. But what if you could control things without the use of your hands? What if you could use... your thoughts?\r\n\r\nI have been tinkering with a brain sensor and developed an open source JavaScript framework for it to allow me (or anyone else) to control interfaces or robots using facial expressions and mental commands."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542360000000,
+      "toTime": "10:20",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "conf_Room4_friday_16_9h30_10h20",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542357000000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Conference",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>Bring your favorite questions about the Java Platform and the Java Development Kit — past, present, or future — to this open Q&amp;A session with key architects from Oracle's Java team.</p>\n",
+        "id": "YRA-9715",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/bd2f55b11bacf7aa2791921b48dd589c3567bc81",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Mark Reinhold",
+              "uuid": "bd2f55b11bacf7aa2791921b48dd589c3567bc81"
+            },
+            "name": "Mark Reinhold"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/6def69d07b56e2667ec3d3c296fbd35014e10841",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Brian Goetz",
+              "uuid": "6def69d07b56e2667ec3d3c296fbd35014e10841"
+            },
+            "name": "Brian Goetz"
+          }
+        ],
+        "title": "Ask the Java Architects",
+        "lang": "en",
+        "summary": "Bring your favorite questions about the Java Platform and the Java Development Kit — past, present, or future — to this open Q&A session with key architects from Oracle's Java team."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542360000000,
+      "toTime": "10:20",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "conf_Room5_friday_16_9h30_10h20",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542357000000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Conference",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>Microservices taught us to build applications with fine grained, replaceable components. Lambdas teach us to chains simple event driven functions. But both these paradigms have one common problem, handling data. One of the most interesting, and provocative ideas to arise from the stream processing community is the use an event streams, which are sewn together with a streaming layer like KSQL and pushed into functions, services, caches or databases.</p>\n<p>In this talk we’ll explore the use of event streams as a source of truth, examining the relationship between events, event sourcing, stream processing and functions. We’ll look at how events can be captured, streamed and processed natively. How transactions give us the ability to perform complex manipulations before they hit our business logic, pushing this model out over different data centres and clouds. We’ll also examine the subtler, systemic effects that the pattern leads to: better autonomy, easier evolution and a more ephemeral approach to data.</p>\n",
+        "id": "SXM-2997",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/44a79797e2acb1d1b5e87ecb342788b1642f32f8",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Ben Stopford",
+              "uuid": "44a79797e2acb1d1b5e87ecb342788b1642f32f8"
+            },
+            "name": "Ben Stopford"
+          }
+        ],
+        "title": "Streaming Data for the Cloud Native Generation",
+        "lang": "en",
+        "summary": "Microservices taught us to build applications with fine grained, replaceable components. Lambdas teach us to chains simple event driven functions. But both these paradigms have one common problem, handling data. One of the most interesting, and provocative ideas to arise from the stream processing community is the use an event streams, which are sewn together with a streaming layer like KSQL and pushed into functions, services, caches or databases. \r\n\r\nIn this talk we’ll explore the use of event streams as a source of truth, examining the relationship between events, event sourcing, stream processing and functions. We’ll look at how events can be captured, streamed and processed natively. How transactions give us the ability to perform complex manipulations before they hit our business logic, pushing this model out over different data centres and clouds. We’ll also examine the subtler, systemic effects that the pattern leads to: better autonomy, easier evolution and a more ephemeral approach to data.\r\n"
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542360000000,
+      "toTime": "10:20",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "conf_Room6_friday_16_9h30_10h20",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542357000000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Architecture & Security",
+        "talkType": "Conference",
+        "track": "Architecture & Security",
+        "summaryAsHtml": "<p>If WhatsApp can do it, why not you?\nIn this talk, we present a practical architecture for end-to-end encrypted (E2EE) apps, its benefits, consequences and the main pitfalls to avoid. We will use the open source DataPeps SDK to automate the implementation of cryptography and apply DataPeps to secure a sample note-taking app with the implementation of E2EE. In doing so, we will not change  the user experience the slightest. The Note app we chose has a backend implemented in Go and a frontend implemented in JavaScript, but similar code can be used with other programming languages. Fifty minutes is all we need to detail how to create a secure session in which data is automatically encrypted and decrypted on the client-side, and use that session to protect individual notes and share notes between different users.</p>\n",
+        "id": "RSV-7655",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/14140d38392a8d13e9a6b956b3854c9fca117eb3",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Henri Binsztok",
+              "uuid": "14140d38392a8d13e9a6b956b3854c9fca117eb3"
+            },
+            "name": "Henri Binsztok"
+          }
+        ],
+        "title": "Implement End-to-End Encryption in Your App in Just 50 Minutes",
+        "lang": "en",
+        "summary": "If WhatsApp can do it, why not you? \r\nIn this talk, we present a practical architecture for end-to-end encrypted (E2EE) apps, its benefits, consequences and the main pitfalls to avoid. We will use the open source DataPeps SDK to automate the implementation of cryptography and apply DataPeps to secure a sample note-taking app with the implementation of E2EE. In doing so, we will not change  the user experience the slightest. The Note app we chose has a backend implemented in Go and a frontend implemented in JavaScript, but similar code can be used with other programming languages. Fifty minutes is all we need to detail how to create a secure session in which data is automatically encrypted and decrypted on the client-side, and use that session to protect individual notes and share notes between different users.\r\n"
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542360000000,
+      "toTime": "10:20",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "conf_Room8_friday_16_9h30_10h20",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542357000000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Methodology & Culture",
+        "talkType": "Conference",
+        "track": "Methodology & Culture",
+        "summaryAsHtml": "<p>\"Building products customers want is a lot like TDD - fail fast, in a controlled environment, then learn and adapt until the build is green\"</p>\n<p>In this talk we’ll discuss how an experimental approach to product development will lead to the many small failures that are essential to achieving great outcomes. We’ll share stories from our experience in startups and enterprises, the mistakes we made along the way and how we came to the realisation we needed to approach building products differently.</p>\n<p>We aim for you to leave knowing how to practically apply an experimental approach to your product development, how to create a culture of experimentation and to recognise the dangers of launching without learning first.</p>\n",
+        "id": "TXZ-1793",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/6ecf0f052f036fefca9193ab827374c25381283e",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Oli Gibson",
+              "uuid": "6ecf0f052f036fefca9193ab827374c25381283e"
+            },
+            "name": "Oli Gibson"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/7e26b7145a391d532523afa4c2283647dc821a4b",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Monira Rhaimi",
+              "uuid": "7e26b7145a391d532523afa4c2283647dc821a4b"
+            },
+            "name": "Monira Rhaimi"
+          }
+        ],
+        "title": "How to build products people care about",
+        "lang": "en",
+        "summary": "\"Building products customers want is a lot like TDD - fail fast, in a controlled environment, then learn and adapt until the build is green\"\r\n\r\nIn this talk we’ll discuss how an experimental approach to product development will lead to the many small failures that are essential to achieving great outcomes. We’ll share stories from our experience in startups and enterprises, the mistakes we made along the way and how we came to the realisation we needed to approach building products differently. \r\n\r\nWe aim for you to leave knowing how to practically apply an experimental approach to your product development, how to create a culture of experimentation and to recognise the dangers of launching without learning first."
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1542360000000,
+      "toTime": "10:20",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "conf_Room9_friday_16_9h30_10h20",
+      "day": "friday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542360000000,
+      "break": {
+        "id": "st.12",
+        "nameEN": "Coffee Break",
+        "nameFR": "Coffee Break",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "friday",
+        "startTime": 1542360000000,
+        "endTime": 1542360900000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "10:20",
+      "toTimeMillis": 1542360900000,
+      "toTime": "10:35",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.12",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": true,
+      "fromTimeMillis": 1542360900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "10:35",
+      "toTimeMillis": 1542363900000,
+      "toTime": "11:25",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "conf_Room4_friday_16_10h35_11h25",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542360900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Cloud, Containers & Infrastructure",
+        "talkType": "Conference",
+        "track": "Cloud, Containers & Infrastructure",
+        "summaryAsHtml": "<p>Working with complex systems means that even well written code can behave in unexpected ways, leading to outages and critical issues. Kubernetes allows you to easily rollout new code and quickly revert to safe, stable releases when issues are identified. But often the damage done in the short period between deploy and rollback is significant.</p>\n<p>In this session, we’ll show you how to limit the effect of unforeseen issues using canary deploys with Istio. We’ll also cover ways to better monitor your applications in Kubernetes to help you spot potential problems before they affect your entire customer base.</p>\n",
+        "id": "MVM-1794",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/b1852252dc6c0770967861a5f00482bc4e5d2444",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Jason Yee",
+              "uuid": "b1852252dc6c0770967861a5f00482bc4e5d2444"
+            },
+            "name": "Jason Yee"
+          }
+        ],
+        "title": "Better Canary Deploys with Kubernetes and Istio",
+        "lang": "en",
+        "summary": "Working with complex systems means that even well written code can behave in unexpected ways, leading to outages and critical issues. Kubernetes allows you to easily rollout new code and quickly revert to safe, stable releases when issues are identified. But often the damage done in the short period between deploy and rollback is significant.\r\n\r\nIn this session, we’ll show you how to limit the effect of unforeseen issues using canary deploys with Istio. We’ll also cover ways to better monitor your applications in Kubernetes to help you spot potential problems before they affect your entire customer base.\r\n"
+      },
+      "fromTime": "10:35",
+      "toTimeMillis": 1542363900000,
+      "toTime": "11:25",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "conf_Room5_friday_16_10h35_11h25",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542360900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Big Data & Machine Learning",
+        "talkType": "Conference",
+        "track": "Big Data & Machine Learning",
+        "summaryAsHtml": "<p>It is widely accepted that AI is the future of testing. However, because a fault lies in the eye of the beholder, it is pretty unclear <em>how</em> to apply AI to testing—called the Oracle problem.</p>\n<p>There are literally thousands of UI test automation tools. But due to high efforts for creation and maintenance, together with the brittleness and unreliability of the resulting tests, testing often remains a manual task (confirming the testing pyramid). Meanwhile Software testing accounts for 30%-40% of the budget of a typical software project.</p>\n<p>However, there is a way to circumvent the oracle problem and use AI to not only find technical errors (i.e. crashes), but to generate tests for business functionality—autonomous automation. See how AI can be trained to generate tests that are optimized towards several goals and are even better than manually created ones.</p>\n<p>Visit the future of testing and see how AI can help us create better software!</p>\n",
+        "id": "KQX-4133",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/5099132faff5ad68c2b154110a7a6ab10098493f",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Jeremias Rößler",
+              "uuid": "5099132faff5ad68c2b154110a7a6ab10098493f"
+            },
+            "name": "Jeremias Rößler"
+          }
+        ],
+        "title": "How to apply AI to testing",
+        "lang": "en",
+        "summary": "It is widely accepted that AI is the future of testing. However, because a fault lies in the eye of the beholder, it is pretty unclear _how_ to apply AI to testing—called the Oracle problem.\r\n\r\nThere are literally thousands of UI test automation tools. But due to high efforts for creation and maintenance, together with the brittleness and unreliability of the resulting tests, testing often remains a manual task (confirming the testing pyramid). Meanwhile Software testing accounts for 30%-40% of the budget of a typical software project.\r\n\r\nHowever, there is a way to circumvent the oracle problem and use AI to not only find technical errors (i.e. crashes), but to generate tests for business functionality—autonomous automation. See how AI can be trained to generate tests that are optimized towards several goals and are even better than manually created ones.\r\n\r\nVisit the future of testing and see how AI can help us create better software!"
+      },
+      "fromTime": "10:35",
+      "toTimeMillis": 1542363900000,
+      "toTime": "11:25",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "conf_Room6_friday_16_10h35_11h25",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542360900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Conference",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>After leading 2 projects making heavy use of Lambdas and Streams, counseling many others at IBM, and teaching <strong>hundreds</strong> of developers at University and as an Independent Trainer, Victor will prove several best practices, patterns and anti-patterns he distilled over the years. All via a series of live coding exercises, like you've probably never saw in your life!</p>\n<p>You will hear about: Bloated Lambdas, A Happy Predicate, Stream Wrecks, How to Kill The Biggest Bug, Monads, Passing-a-block, The Loan Pattern, and 5 Ways to Implement Type-Specific Logic.\nOf course, as a <strong>Clean Code Maniac</strong>, Victor will always strive for maintainable, readable, elegant code. So you'll see a lot of refactoring.</p>\n<p>PS: You know, some Joe will maintain your Java8 code at some point. So let's just hope Joe would be a nice safe guy...</p>\n",
+        "id": "BOZ-9681",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/911e2062352e61b9d4913c1b84540b698c014d24",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Victor Rentea",
+              "uuid": "911e2062352e61b9d4913c1b84540b698c014d24"
+            },
+            "name": "Victor Rentea"
+          }
+        ],
+        "title": "Functional Programming Patterns with Java8",
+        "lang": "en",
+        "summary": "After leading 2 projects making heavy use of Lambdas and Streams, counseling many others at IBM, and teaching **hundreds** of developers at University and as an Independent Trainer, Victor will prove several best practices, patterns and anti-patterns he distilled over the years. All via a series of live coding exercises, like you've probably never saw in your life!\r\n\r\nYou will hear about: Bloated Lambdas, A Happy Predicate, Stream Wrecks, How to Kill The Biggest Bug, Monads, Passing-a-block, The Loan Pattern, and 5 Ways to Implement Type-Specific Logic.\r\nOf course, as a **Clean Code Maniac**, Victor will always strive for maintainable, readable, elegant code. So you'll see a lot of refactoring.\r\n\r\nPS: You know, some Joe will maintain your Java8 code at some point. So let's just hope Joe would be a nice safe guy...\r\n"
+      },
+      "fromTime": "10:35",
+      "toTimeMillis": 1542363900000,
+      "toTime": "11:25",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "conf_Room8_friday_16_10h35_11h25",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542360900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Architecture & Security",
+        "talkType": "Conference",
+        "track": "Architecture & Security",
+        "summaryAsHtml": "<p>TBA</p>\n",
+        "id": "MKA-5385",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/7189f4a2dfb7199ed684a781cce2d82f99e6e596",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Davy Van Roy",
+              "uuid": "7189f4a2dfb7199ed684a781cce2d82f99e6e596"
+            },
+            "name": "Davy Van Roy"
+          }
+        ],
+        "title": "Building blockchain apps with zero knowledge",
+        "lang": "en",
+        "summary": "TBA"
+      },
+      "fromTime": "10:35",
+      "toTimeMillis": 1542363900000,
+      "toTime": "11:25",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "conf_Room9_friday_16_10h35_11h25",
+      "day": "friday"
+    },
+    {
+      "roomId": "BOF1",
+      "notAllocated": false,
+      "fromTimeMillis": 1542360900000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Mind the Geek",
+        "talkType": "BOF",
+        "track": "Mind the Geek",
+        "summaryAsHtml": "<p>Now if you don't speak French, that's going to be tough. But if you do understand French, come join the French speaking community for the live event of Les Cast Codeurs podcast.</p>\n<p>Les Cast Codeurs is a podcast by not so young developers that discuss the state of the Java ecosystem and the development community in general. We give news, we give opinions, we joke, we use 4 spaces for indenting, we use vim, we like strongly coupled monoliths written in weakly statically compiled bash scripts, we like the programming motherfucker manifesto.</p>\n",
+        "id": "NKJ-9530",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/05afda51d686bab49c8687025d0b07b00ce45a0b",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Emmanuel Bernard",
+              "uuid": "05afda51d686bab49c8687025d0b07b00ce45a0b"
+            },
+            "name": "Emmanuel Bernard"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/8af78fa5cf9450329a3ecbceb4038823681de4a7",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Audrey Neveu",
+              "uuid": "8af78fa5cf9450329a3ecbceb4038823681de4a7"
+            },
+            "name": "Audrey Neveu"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/6a635bdc45a8266a5fb300f214f9207c4f399f6d",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Guillaume Laforge",
+              "uuid": "6a635bdc45a8266a5fb300f214f9207c4f399f6d"
+            },
+            "name": "Guillaume Laforge"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/f3a48bb49697608a0ccd8f8fa1bb08b0f606296b",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Vincent Massol",
+              "uuid": "f3a48bb49697608a0ccd8f8fa1bb08b0f606296b"
+            },
+            "name": "Vincent Massol"
+          }
+        ],
+        "title": "Les Cast Codeurs Podcast: (with|by|for|of) developers",
+        "lang": "en",
+        "summary": "Now if you don't speak French, that's going to be tough. But if you do understand French, come join the French speaking community for the live event of Les Cast Codeurs podcast.\r\n\r\nLes Cast Codeurs is a podcast by not so young developers that discuss the state of the Java ecosystem and the development community in general. We give news, we give opinions, we joke, we use 4 spaces for indenting, we use vim, we like strongly coupled monoliths written in weakly statically compiled bash scripts, we like the programming motherfucker manifesto."
+      },
+      "fromTime": "10:35",
+      "toTimeMillis": 1542364500000,
+      "toTime": "11:35",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "bof_BOF1_friday_16_10h35_11h35",
+      "day": "friday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542363900000,
+      "break": {
+        "id": "st.17",
+        "nameEN": "Break",
+        "nameFR": "Break",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "friday",
+        "startTime": 1542363900000,
+        "endTime": 1542364800000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "11:25",
+      "toTimeMillis": 1542364800000,
+      "toTime": "11:40",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.17",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1542364800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Programming languages",
+        "talkType": "Conference",
+        "track": "Programming languages",
+        "summaryAsHtml": "<p>Explaining how clustering works in general, and Akka Cluster specifically, is well worth the effort. Ask anyone who \"gets it\". As someone who has taught Akka Cluster courses many times over, I was always left unsatisfied after explaining the key concepts behind it in front of a white board. What I will explain and demonstrate live using a 5-node Raspberry-Pi based Akka Cluster, is how a powerful visualisation of the state of the nodes in a cluster can transform this complicated topic into one that is easy to grasp for anyone. Not only that: my personal experience has shown that it can actually transform a rather passive observer into someone who starts asking questions that demonstrate the fact that they fully grasp it. The fact that we use a physical cluster to demo and explain Akka Cluster is instrumental for this. I will conclude the talk by giving an overview how the Raspberry-Pi cluster is built along with the tooling that is used to put the demos together.</p>\n",
+        "id": "PWG-7081",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/f6be30c224fa250ab01c56d11b043036b51f4599",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Eric Loots",
+              "uuid": "f6be30c224fa250ab01c56d11b043036b51f4599"
+            },
+            "name": "Eric Loots"
+          }
+        ],
+        "title": "Understanding Akka Cluster Through Raspberry-Pi Cluster Visualization",
+        "lang": "en",
+        "summary": "Explaining how clustering works in general, and Akka Cluster specifically, is well worth the effort. Ask anyone who \"gets it\". As someone who has taught Akka Cluster courses many times over, I was always left unsatisfied after explaining the key concepts behind it in front of a white board. What I will explain and demonstrate live using a 5-node Raspberry-Pi based Akka Cluster, is how a powerful visualisation of the state of the nodes in a cluster can transform this complicated topic into one that is easy to grasp for anyone. Not only that: my personal experience has shown that it can actually transform a rather passive observer into someone who starts asking questions that demonstrate the fact that they fully grasp it. The fact that we use a physical cluster to demo and explain Akka Cluster is instrumental for this. I will conclude the talk by giving an overview how the Raspberry-Pi cluster is built along with the tooling that is used to put the demos together."
+      },
+      "fromTime": "11:40",
+      "toTimeMillis": 1542367800000,
+      "toTime": "12:30",
+      "roomCapacity": 348,
+      "roomName": "Room 4",
+      "slotId": "conf_Room4_friday_16_11h40_12h30",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1542364800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Conference",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>The Z Garbage Collector (ZGC) is a new JDK garbage collector designed for low latency and high scalability.  For an industry-standard latency-sensitive benchmark it achieves throughput over 36% higher than the existing JDK collectors while never exceeding a maximum pause time of two milliseconds.  In this session we’ll explain how ZGC achieves this performance, and show how to use it.</p>\n",
+        "id": "DPN-3235",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/51bea6ea1f0db004b7ecebf43745df84424cac32",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Erik Österlund",
+              "uuid": "51bea6ea1f0db004b7ecebf43745df84424cac32"
+            },
+            "name": "Erik Österlund"
+          }
+        ],
+        "title": "The Z Garbage Collector",
+        "lang": "en",
+        "summary": "The Z Garbage Collector (ZGC) is a new JDK garbage collector designed for low latency and high scalability.  For an industry-standard latency-sensitive benchmark it achieves throughput over 36% higher than the existing JDK collectors while never exceeding a maximum pause time of two milliseconds.  In this session we’ll explain how ZGC achieves this performance, and show how to use it."
+      },
+      "fromTime": "11:40",
+      "toTimeMillis": 1542367800000,
+      "toTime": "12:30",
+      "roomCapacity": 649,
+      "roomName": "Room 5",
+      "slotId": "conf_Room5_friday_16_11h40_12h30",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1542364800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Server Side Java",
+        "talkType": "Conference",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>Jakarta EE is taking over the relay baton from Java EE as a community effort in the Eclipse Foundation with the focus on enabling community-driven collaboration and open innovation for the cloud. The transfer of the Java EE technologies to Eclipse Foundation also opens up for very interesting synergies and collaboration with the Eclipse MicroProfile projecs. This session will give you an update on the current state of Jakarta EE and look ahead at how the continued development of the platform will look like.</p>\n<p>There will be demos of the technologies in a vendor neutral way as well as deployment options to various cloud environments.</p>\n",
+        "id": "VKZ-5277",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/5fb1a718e0b8ca1b6b5f45a042ba32eaef27a0a3",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Ivar Grimstad",
+              "uuid": "5fb1a718e0b8ca1b6b5f45a042ba32eaef27a0a3"
+            },
+            "name": "Ivar Grimstad"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/cfc736ce095ed84067e686f627a630c46e39cf0e",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Mark Little",
+              "uuid": "cfc736ce095ed84067e686f627a630c46e39cf0e"
+            },
+            "name": "Mark Little"
+          },
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/9efc4d746d8e6c4a58cdb8540be6229836705591",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Kevin Sutter",
+              "uuid": "9efc4d746d8e6c4a58cdb8540be6229836705591"
+            },
+            "name": "Kevin Sutter"
+          }
+        ],
+        "title": "JakartaEE - The New Home of Cloud Native Java",
+        "lang": "en",
+        "summary": "Jakarta EE is taking over the relay baton from Java EE as a community effort in the Eclipse Foundation with the focus on enabling community-driven collaboration and open innovation for the cloud. The transfer of the Java EE technologies to Eclipse Foundation also opens up for very interesting synergies and collaboration with the Eclipse MicroProfile projecs. This session will give you an update on the current state of Jakarta EE and look ahead at how the continued development of the platform will look like.\r\n\r\nThere will be demos of the technologies in a vendor neutral way as well as deployment options to various cloud environments."
+      },
+      "fromTime": "11:40",
+      "toTimeMillis": 1542367800000,
+      "toTime": "12:30",
+      "roomCapacity": 370,
+      "roomName": "Room 6",
+      "slotId": "conf_Room6_friday_16_11h40_12h30",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1542364800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Java Language",
+        "talkType": "Conference",
+        "track": "Java Language",
+        "summaryAsHtml": "<p>Since last Devoxx, we've seen two more major versions of the  JDK!  What's changed in the last year, and what's coming down the road?\nJoin Java Language Architect Brian Goetz in a whirlwind tour of just some of the features coming to Java next.</p>\n",
+        "id": "CFW-9146",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/6def69d07b56e2667ec3d3c296fbd35014e10841",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Brian Goetz",
+              "uuid": "6def69d07b56e2667ec3d3c296fbd35014e10841"
+            },
+            "name": "Brian Goetz"
+          }
+        ],
+        "title": "Java Futures, Devoxx 2018 Edition",
+        "lang": "en",
+        "summary": "Since last Devoxx, we've seen two more major versions of the  JDK!  What's changed in the last year, and what's coming down the road? \r\nJoin Java Language Architect Brian Goetz in a whirlwind tour of just some of the features coming to Java next."
+      },
+      "fromTime": "11:40",
+      "toTimeMillis": 1542367800000,
+      "toTime": "12:30",
+      "roomCapacity": 694,
+      "roomName": "Room 8",
+      "slotId": "conf_Room8_friday_16_11h40_12h30",
+      "day": "friday"
+    },
+    {
+      "roomId": "Room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1542364800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "trackId": "Methodology & Culture",
+        "talkType": "Conference",
+        "track": "Methodology & Culture",
+        "summaryAsHtml": "<p>As a developer in IBM's Cloud Garage, I work with customers who are trying to get to cloud so everything becomes better. What's getting in their way isn't the technology - wrapping something in a docker container (usually) isn't that hard. Instead, it's the structures that have been put in place to manage risk and the relationships between teams that trip companies up. In this talk, I'll share some stories of customers struggling to get cloud native, and how we applied our methodology to turn things around. I'll cover the ideal team size, the ideal microservice size, what skills a team needs, the role of architects, how to know if something is ready to ship, and whose fault everything really is.</p>\n",
+        "id": "AWN-2088",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://dvbe18.confinabox.com/api/conferences/DVBE18/speakers/89228e5ae40bb347e77d4c915499b10401ba5393",
+              "rel": "http://dvbe18.confinabox.com/api/profile/speaker",
+              "title": "Holly Cummins",
+              "uuid": "89228e5ae40bb347e77d4c915499b10401ba5393"
+            },
+            "name": "Holly Cummins"
+          }
+        ],
+        "title": "Cloud native is about culture, not containers",
+        "lang": "en",
+        "summary": "As a developer in IBM's Cloud Garage, I work with customers who are trying to get to cloud so everything becomes better. What's getting in their way isn't the technology - wrapping something in a docker container (usually) isn't that hard. Instead, it's the structures that have been put in place to manage risk and the relationships between teams that trip companies up. In this talk, I'll share some stories of customers struggling to get cloud native, and how we applied our methodology to turn things around. I'll cover the ideal team size, the ideal microservice size, what skills a team needs, the role of architects, how to know if something is ready to ship, and whose fault everything really is."
+      },
+      "fromTime": "11:40",
+      "toTimeMillis": 1542367800000,
+      "toTime": "12:30",
+      "roomCapacity": 398,
+      "roomName": "Room 9",
+      "slotId": "conf_Room9_friday_16_11h40_12h30",
+      "day": "friday"
+    },
+    {
+      "roomId": "ExhibitionHall",
+      "notAllocated": false,
+      "fromTimeMillis": 1542367800000,
+      "break": {
+        "id": "st.48",
+        "nameEN": "Safe travels home",
+        "nameFR": "Safe travels home",
+        "room": {
+          "id": "ExhibitionHall",
+          "name": "Exhibition Hall",
+          "capacity": 2000,
+          "setup": "classroom",
+          "recorded": "yes"
+        },
+        "dayName": "friday",
+        "startTime": 1542367800000,
+        "endTime": 1542371400000
+      },
+      "roomSetup": "classroom",
+      "talk": null,
+      "fromTime": "12:30",
+      "toTimeMillis": 1542371400000,
+      "toTime": "13:30",
+      "roomCapacity": 2000,
+      "roomName": "Exhibition Hall",
+      "slotId": "st.48",
+      "day": "friday"
+    }
+  ]
+}
