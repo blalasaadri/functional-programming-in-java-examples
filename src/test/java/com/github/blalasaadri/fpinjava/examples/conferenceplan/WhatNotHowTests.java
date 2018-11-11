@@ -9,6 +9,7 @@ import java.time.DayOfWeek;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
+import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -58,18 +59,25 @@ public class WhatNotHowTests {
         //
 
         // Get talks on Monday
-        List<Slot> talksOnMonday = new ArrayList<>();
-        for (ConferenceDay conferenceDay : conferenceDays) {
-            List<Slot> slots = conferenceDay.getSlots();
-            for (Slot slot : slots) {
-                if (slot.getDay() == DayOfWeek.MONDAY) {
-                    Optional<Talk> optionalTalk = slot.getTalk();
-                    if (optionalTalk.isPresent()) {
-                        talksOnMonday.add(slot);
-                    }
-                }
-            }
-        }
+//        List<Slot> talksOnMonday = new ArrayList<>();
+//        for (ConferenceDay conferenceDay : conferenceDays) {
+//            List<Slot> slots = conferenceDay.getSlots();
+//            for (Slot slot : slots) {
+//                if (slot.getDay() == DayOfWeek.MONDAY) {
+//                    Optional<Talk> optionalTalk = slot.getTalk();
+//                    if (optionalTalk.isPresent()) {
+//                        talksOnMonday.add(slot);
+//                    }
+//                }
+//            }
+//        }
+
+        List<Slot> talksOnMonday = conferenceDays.stream()
+                .flatMap(conferenceDay -> conferenceDay.getSlots().stream())
+                .filter(slot -> slot.getDay() == DayOfWeek.MONDAY)
+                .filter(slot -> slot.getTalk().isPresent())
+                .collect(Collectors.toList());
+
 
         assertThat(talksOnMonday)
                 .hasSize(33)
@@ -128,19 +136,31 @@ public class WhatNotHowTests {
         //
 
         // Sort talks into time slots
-        Map<String, List<MinimalTalkInfo>> talksOnMondayGroupedByTimeslot = new HashMap<>();
-        for (MinimalTalkInfo talk : minimalTalksOnMonday) {
-            String timeSlot = formatTimeSlot(talk);
-            if (talksOnMondayGroupedByTimeslot.containsKey(timeSlot)) {
-                talksOnMondayGroupedByTimeslot
-                        .get(timeSlot)
-                        .add(talk);
-            } else {
-                List<MinimalTalkInfo> talksForTimeslot = new ArrayList<>();
-                talksForTimeslot.add(talk);
-                talksOnMondayGroupedByTimeslot.put(timeSlot, talksForTimeslot);
-            }
-        }
+//        Map<String, List<MinimalTalkInfo>> talksOnMondayGroupedByTimeslot = new HashMap<>();
+//        for (MinimalTalkInfo talk : minimalTalksOnMonday) {
+//            String timeSlot = formatTimeSlot(talk);
+//            if (talksOnMondayGroupedByTimeslot.containsKey(timeSlot)) {
+//                talksOnMondayGroupedByTimeslot
+//                        .get(timeSlot)
+//                        .add(talk);
+//            } else {
+//                List<MinimalTalkInfo> talksForTimeslot = new ArrayList<>();
+//                talksForTimeslot.add(talk);
+//                talksOnMondayGroupedByTimeslot.put(timeSlot, talksForTimeslot);
+//            }
+//        }
+
+        Map<String, List<MinimalTalkInfo>> talksOnMondayGroupedByTimeslot =
+                minimalTalksOnMonday.stream()
+                        .collect(Collectors.toMap(
+                                WhatNotHowTests::formatTimeSlot,
+                                List::of,
+                                (first, second) -> {
+                                    List<MinimalTalkInfo> talks = new ArrayList<>(first);
+                                    talks.addAll(second);
+                                    return talks;
+                                }
+                        ));
 
         {
             SoftAssertions softly = new SoftAssertions();
@@ -225,25 +245,43 @@ public class WhatNotHowTests {
         // Find the best talks for each timeslot by rating and, if there are several with
         // the same rating in a timeslot, choose the one with the title which would come
         // earlier in the alphabet.
-        Map<String, MinimalTalkInfo> highestRatedTalksPerTimeslot = new HashMap<>();
-        for (Map.Entry<String, List<MinimalTalkInfo>> timeslotPerTimeslot : talksOnMondayGroupedByTimeslot.entrySet()) {
-            List<MinimalTalkInfo> talksInTimeslot = timeslotPerTimeslot.getValue();
-            MinimalTalkInfo highestRatedTalk = talksInTimeslot.get(0);
-            for (MinimalTalkInfo talk : talksInTimeslot) {
-                if (talk == highestRatedTalk) {
-                    continue;
-                }
-                if (talk.getRating() > highestRatedTalk.getRating()) {
-                    highestRatedTalk = talk;
-                    continue;
-                }
-                if (talk.getRating() == highestRatedTalk.getRating()
-                        && talk.getTitle().compareTo(highestRatedTalk.getTitle()) < 0) {
-                    highestRatedTalk = talk;
-                }
-            }
-            highestRatedTalksPerTimeslot.put(timeslotPerTimeslot.getKey(), highestRatedTalk);
-        }
+//        Map<String, MinimalTalkInfo> highestRatedTalksPerTimeslot = new HashMap<>();
+//        for (Map.Entry<String, List<MinimalTalkInfo>> timeslotPerTimeslot : talksOnMondayGroupedByTimeslot.entrySet()) {
+//            List<MinimalTalkInfo> talksInTimeslot = timeslotPerTimeslot.getValue();
+//            MinimalTalkInfo highestRatedTalk = talksInTimeslot.get(0);
+//            for (MinimalTalkInfo talk : talksInTimeslot) {
+//                if (talk == highestRatedTalk) {
+//                    continue;
+//                }
+//                if (talk.getRating() > highestRatedTalk.getRating()) {
+//                    highestRatedTalk = talk;
+//                    continue;
+//                }
+//                if (talk.getRating() == highestRatedTalk.getRating()
+//                        && talk.getTitle().compareTo(highestRatedTalk.getTitle()) < 0) {
+//                    highestRatedTalk = talk;
+//                }
+//            }
+//            highestRatedTalksPerTimeslot.put(timeslotPerTimeslot.getKey(), highestRatedTalk);
+//        }
+
+        Map<String, MinimalTalkInfo> highestRatedTalksPerTimeslot =
+                talksOnMondayGroupedByTimeslot.entrySet().stream()
+                        .map(entry -> {
+                            List<MinimalTalkInfo> talksAtTimeslot = entry.getValue();
+                            Comparator<MinimalTalkInfo> byRating =
+                                    Comparator.comparingInt(MinimalTalkInfo::getRating);
+                            Comparator<MinimalTalkInfo> byTitle =
+                                    Comparator.comparing(MinimalTalkInfo::getTitle)
+                                            .reversed();
+                            MinimalTalkInfo minimalTalkInfo = talksAtTimeslot.stream()
+                                    .max(byRating.thenComparing(byTitle))
+                                    .orElseThrow(() -> new NoSuchElementException("No talks in timeslot " + entry.getKey()));
+                            return Map.entry(entry.getKey(), minimalTalkInfo);
+                        }).collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        Map.Entry::getValue
+                ));
 
         assertThat(highestRatedTalksPerTimeslot)
                 .hasSameSizeAs(talksOnMondayGroupedByTimeslot)
@@ -297,5 +335,4 @@ public class WhatNotHowTests {
         }
         return minimalTalksOnMonday;
     }
-
 }
