@@ -4,7 +4,6 @@ import org.immutables.value.Value;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalTime;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -14,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SuppressWarnings("ALL")
 class ImmutableDatastructuresTest {
 
-    class TalkAndNotes {
+    class TalkAndNotes implements Cloneable {
         private MinimalTalkInfo talkInfo;
         private String notes;
 
@@ -60,9 +59,17 @@ class ImmutableDatastructuresTest {
                     ", notes='" + notes + '\'' +
                     '}';
         }
+
+        public TalkAndNotes copy() {
+            try {
+                return (TalkAndNotes) clone();
+            } catch (CloneNotSupportedException e) {
+                return null;
+            }
+        }
     }
 
-    class Schedule {
+    class Schedule implements Cloneable {
 
         private TalkAndNotes firstTalk;
         private TalkAndNotes secondTalk;
@@ -174,6 +181,14 @@ class ImmutableDatastructuresTest {
         public int hashCode() {
             return Objects.hash(firstTalk, secondTalk, thirdTalk, fourthTalk, fifthTalk, sixthTalk, seventhTalk);
         }
+
+        public Schedule copy() {
+            try {
+                return (Schedule) clone();
+            } catch (CloneNotSupportedException e) {
+                return null;
+            }
+        }
     }
 
     private Schedule createSchedule() {
@@ -271,8 +286,8 @@ class ImmutableDatastructuresTest {
 
     public Schedule showScheduleToAFriend(Schedule schedule) {
         // Hey, that's a great schedule! I want to visit the same talks, expept for the first one.
-        Schedule friendsSchedule = schedule;
-        TalkAndNotes firstTalk = friendsSchedule.getFirstTalk();
+        Schedule friendsSchedule = schedule.copy();
+        TalkAndNotes firstTalk = friendsSchedule.getFirstTalk().copy();
         firstTalk.setTalkInfo(MinimalTalkInfo.of(
                 "Lambdas and Streams Master Class Part 1",
                 List.of("José Paumard", "Stuart Marks"),
@@ -280,6 +295,7 @@ class ImmutableDatastructuresTest {
                 LocalTime.of(12, 30),
                 2
         ));
+        friendsSchedule.setFirstTalk(firstTalk);
         return friendsSchedule;
     }
 
@@ -795,26 +811,28 @@ class ImmutableDatastructuresTest {
             allParameters = true
     )
     interface Schedules {
-        List<BestSchedule> getSchedules();
+        io.vavr.collection.List<BestSchedule> getSchedules();
 
-        Schedules withSchedules(Iterable<? extends BestSchedule> schedules);
+        Schedules withSchedules(io.vavr.collection.List<BestSchedule> schedules);
     }
 
     @Test
     void modifyingMutableValuesWithinImmutables() {
-        List<BestSchedule> mutableSchedules = new ArrayList<BestSchedule>();
+        io.vavr.collection.List<BestSchedule> immmutableSchedules = io.vavr.collection.List.empty();
 
         Schedules schedules = ImmutableSchedules.builder()
-                .schedules(mutableSchedules)
+                .schedules(immmutableSchedules)
                 .build();
 
-        var schedulesWithBestSchedule = schedules.getSchedules();
-        schedulesWithBestSchedule.add(createBestSchedule());
+        var schedulesWithBestSchedule = schedules.getSchedules()
+                .append(createBestSchedule());
 
         Schedules newSchedules = schedules.withSchedules(schedulesWithBestSchedule);
 
         assertThat(newSchedules.getSchedules())
                 .isNotEmpty();
+        assertThat(schedules.getSchedules())
+                .isEmpty();
     }
 
     //
