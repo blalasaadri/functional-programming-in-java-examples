@@ -319,9 +319,9 @@ class PureFunctionTests {
 
         // Some functions on Collections / Streams require Consumers
 
-        // TODO Pure Consumer
         // The only consumer that doesn't have a side effect is:
-//        talks.forEach();
+        talks.forEach(talk -> {
+        });
 
         //
         //
