@@ -335,4 +335,5 @@ public class WhatNotHowTests {
         }
         return minimalTalksOnMonday;
     }
+
 }
