@@ -1,4 +1,4 @@
 #!/bin/sh
 
-git stash save -u "Changes in 'whatNotHow' solutions branch"
-git checkout task/pureAndUnpure
+git stash save -u "Changes in 'pure and unpure functions' task branch"
+git checkout solutions/pureAndUnpure
