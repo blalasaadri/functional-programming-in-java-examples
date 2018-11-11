@@ -1,1 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
+
+git stash save -u "Changes in master"
+git checkout task/whatNotHow
