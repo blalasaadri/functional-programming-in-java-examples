@@ -9,6 +9,7 @@ import java.time.DayOfWeek;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -265,23 +266,25 @@ public class WhatNotHowTests {
 //            highestRatedTalksPerTimeslot.put(timeslotPerTimeslot.getKey(), highestRatedTalk);
 //        }
 
+        Collector<Map.Entry<String, MinimalTalkInfo>, ?, Map<String, MinimalTalkInfo>> toMapWithExactEntries =
+                Collectors.toMap(
+                        Map.Entry::getKey,
+                        Map.Entry::getValue
+                );
+        Comparator<MinimalTalkInfo> byRating =
+                Comparator.comparingInt(MinimalTalkInfo::getRating);
+        Comparator<MinimalTalkInfo> byTitle =
+                Comparator.comparing(MinimalTalkInfo::getTitle)
+                        .reversed();
+
         Map<String, MinimalTalkInfo> highestRatedTalksPerTimeslot =
                 talksOnMondayGroupedByTimeslot.entrySet().stream()
                         .map(entry -> {
-                            List<MinimalTalkInfo> talksAtTimeslot = entry.getValue();
-                            Comparator<MinimalTalkInfo> byRating =
-                                    Comparator.comparingInt(MinimalTalkInfo::getRating);
-                            Comparator<MinimalTalkInfo> byTitle =
-                                    Comparator.comparing(MinimalTalkInfo::getTitle)
-                                            .reversed();
-                            MinimalTalkInfo minimalTalkInfo = talksAtTimeslot.stream()
+                            MinimalTalkInfo minimalTalkInfo = entry.getValue().stream()
                                     .max(byRating.thenComparing(byTitle))
                                     .orElseThrow(() -> new NoSuchElementException("No talks in timeslot " + entry.getKey()));
                             return Map.entry(entry.getKey(), minimalTalkInfo);
-                        }).collect(Collectors.toMap(
-                        Map.Entry::getKey,
-                        Map.Entry::getValue
-                ));
+                        }).collect(toMapWithExactEntries);
 
         assertThat(highestRatedTalksPerTimeslot)
                 .hasSameSizeAs(talksOnMondayGroupedByTimeslot)
