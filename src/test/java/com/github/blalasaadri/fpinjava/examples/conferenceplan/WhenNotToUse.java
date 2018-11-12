@@ -163,6 +163,14 @@ class WhenNotToUse {
         // When you WANT side effects, don't use pure functions. Duh.
         List.of("Hello", "World")
                 .forEach(System.out::println);
+
+        // Or when you want to get information from outside
+        int answer = Optional.of(-3)
+                .filter(number -> number > 0)
+                .orElseGet(() -> getDefaultValue());
+
+        assertThat(answer)
+                .isPositive();
     }
 
     //
@@ -424,5 +432,28 @@ class WhenNotToUse {
         childrenOf11.add(object11);
         object11.setChildren(childrenOf11);
         return List.of(object11);
+    }
+
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+
+    private int getDefaultValue() {
+        return 42;
     }
 }
