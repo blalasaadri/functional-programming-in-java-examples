@@ -287,6 +287,39 @@ class WhenNotToUse {
     //
     //
     //
+    //
+    //
+    //
+    //
+    //
+    //
+
+    private List<NestedObject> createNestedObjects() {
+        NestedObject object11 = new NestedObject(
+                11,
+                List.of(
+                        new NestedObject(111, List.of()),
+                        new NestedObject(112, List.of()),
+                        new NestedObject(113, List.of())
+                ));
+        List<NestedObject> childrenOf11 = new ArrayList<>(object11.getChildren());
+        childrenOf11.add(object11);
+        object11.setChildren(childrenOf11);
+        return List.of(object11);
+    }
+
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //
 
     @Test
     void whenToUse_mutableValues() {
@@ -418,20 +451,6 @@ class WhenNotToUse {
         public IllegalInputException(String message) {
             super(message);
         }
-    }
-
-    private List<NestedObject> createNestedObjects() {
-        NestedObject object11 = new NestedObject(
-                11,
-                List.of(
-                        new NestedObject(111, List.of()),
-                        new NestedObject(112, List.of()),
-                        new NestedObject(113, List.of())
-                ));
-        List<NestedObject> childrenOf11 = new ArrayList<>(object11.getChildren());
-        childrenOf11.add(object11);
-        object11.setChildren(childrenOf11);
-        return List.of(object11);
     }
 
     //
