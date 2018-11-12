@@ -238,11 +238,11 @@ class ImmutableDatastructuresTest {
         String myActionDescription = visitFirstTalkOf(mySchedule);
         String friendsActionDescription = visitFirstTalkOf(friendsSchedule);
 
-        assertThat(myActionDescription)
+        assertThat(myActionDescription).as("my action")
                 .isEqualTo("You are now visiting your first talk for the day: " +
                         "\"Implementing Microservices with Jakarta EE and MicroProfile\" " +
                         "by Ivar Grimstad and Kevin Sutter.");
-        assertThat(friendsActionDescription)
+        assertThat(friendsActionDescription).as("friends action")
                 .isEqualTo("You are now visiting your first talk for the day: " +
                         "\"Lambdas and Streams Master Class Part 1\" " +
                         "by José Paumard and Stuart Marks.");
