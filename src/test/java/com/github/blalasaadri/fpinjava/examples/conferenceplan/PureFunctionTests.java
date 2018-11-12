@@ -184,14 +184,11 @@ class PureFunctionTests {
                         .orElse(0L)
         );
 
-        assertThat(averageDuration)
-                .withRepresentation(durationRepresentation())
+        assertThat(averageDuration).withRepresentation(durationRepresentation())
                 .isGreaterThan(Duration.ZERO);
-        assertThat(maxDuration)
-                .withRepresentation(durationRepresentation())
+        assertThat(maxDuration).withRepresentation(durationRepresentation())
                 .isGreaterThan(Duration.ZERO);
-        assertThat(averageDuration)
-                .withRepresentation(durationRepresentation())
+        assertThat(averageDuration).withRepresentation(durationRepresentation())
                 .isLessThanOrEqualTo(maxDuration);
     }
 
