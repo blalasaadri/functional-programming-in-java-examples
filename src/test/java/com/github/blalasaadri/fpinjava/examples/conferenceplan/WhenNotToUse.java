@@ -323,7 +323,8 @@ class WhenNotToUse {
             return;
         }
         seenBefore.add(nestedObject);
-        nestedObject.getChildren().forEach(child -> flattenNestedObjects_withMutableObjects(child, seenBefore));
+        nestedObject.getChildren()
+                .forEach(child -> flattenNestedObjects_withMutableObjects(child, seenBefore));
     }
 
     //
