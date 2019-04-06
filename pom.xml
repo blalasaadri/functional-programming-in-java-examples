@@ -18,7 +18,7 @@
         <immutables.version>2.7.3</immutables.version>
         <vavr.version>0.9.2</vavr.version>
         <immutables.vavr.encodings.version>0.6.0</immutables.vavr.encodings.version>
-        <jackson.version>2.9.7</jackson.version>
+        <jackson.version>2.9.8</jackson.version>
         <vavr.jackson.version>0.9.2</vavr.jackson.version>
 
         <!-- Test dependency versions -->

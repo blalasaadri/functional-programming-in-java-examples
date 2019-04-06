@@ -29,3 +29,7 @@ hs_err_pid*
 
 # Jenv local definition file
 .java-version
+.settings
+.project
+.classpath
+.factorypath

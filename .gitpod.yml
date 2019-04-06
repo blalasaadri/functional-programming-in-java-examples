@@ -1,0 +1,6 @@
+image:
+  file: Dockerfile
+ports:
+- port: 8080
+tasks:
+- command: mvn clean package
